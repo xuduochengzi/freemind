@@ -1,0 +1,44 @@
+<map version="1.0.1">
+<!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
+<node CREATED="1440235333526" ID="ID_606684975" MODIFIED="1440235343284" TEXT="postgreSQL">
+<node CREATED="1440235347260" ID="ID_1074431351" MODIFIED="1440235352839" POSITION="right" TEXT="&#x5b89;&#x88c5;">
+<node CREATED="1440235355202" HGAP="23" ID="ID_1779893459" MODIFIED="1440235766267" TEXT="mac&#x5e73;&#x53f0;" VSHIFT="-20">
+<node CREATED="1440235364823" ID="ID_1149666782" MODIFIED="1440235391082" TEXT="&#x4e00;&#x79cd;&#x662f;postgreSQL.APP &#x5b89;&#x88c5;&#xff0c;&#x76f4;&#x63a5;&#x6697;&#x8f6c;&#x5373;&#x53ef;"/>
+<node CREATED="1440235394409" HGAP="31" ID="ID_159539576" MODIFIED="1440243832323" TEXT="&#x4e00;&#x79cd;&#x662f;&#x56fe;&#x5f62;&#x5316;&#x5b89;&#x88c5;" VSHIFT="19"/>
+<node CREATED="1440243347295" HGAP="39" ID="ID_1397819005" MODIFIED="1440243373892" TEXT="mac&#x5e73;&#x53f0;&#x62a5;&#x9519;" VSHIFT="-22">
+<node CREATED="1440243376627" ID="ID_1071677290" MODIFIED="1440243387453" TEXT="Reason: image not found">
+<node CREATED="1440243390726" ID="ID_1391203104" MODIFIED="1440243396348" TEXT="&#x89e3;&#x51b3;&#x65b9;&#x6cd5;"/>
+<node CREATED="1440243399740" ID="ID_1410581814" MODIFIED="1440243440579" TEXT="cd /usr/local/lib/"/>
+<node CREATED="1440243442871" ID="ID_111831519" MODIFIED="1440243864198" TEXT="sudo ln -s /Library/PostgreSQL/9.4/lib/libssl.1.0.0.dylib    libssl.1.0.0.dylib"/>
+<node CREATED="1440243454716" ID="ID_571212851" MODIFIED="1440243868910" TEXT="sudo ln -s /Library/PostgreSQL/9.4/lib/libcrypto.1.0.0.dylib     libcrypto.1.0.0.dylib"/>
+<node CREATED="1440243476003" ID="ID_333341739" MODIFIED="1440243500206" TEXT="&#x5982;&#x679c;&#x8fd8;&#x62a5;&#x9519;&#xff1a;Symbol not found: _lo_lseek64">
+<node CREATED="1440243510155" ID="ID_31761328" MODIFIED="1440243637619" TEXT="1&#xff1a;&#x5728;/usr/lib&#x4e0b;"/>
+<node CREATED="1440243649066" ID="ID_1064800584" MODIFIED="1440243652922" TEXT="2&#xff1a;sudo mv /usr/lib/libpq.5.dylib /usr/lib/libpq.5.dylib.old"/>
+<node CREATED="1440243658682" ID="ID_1365005295" MODIFIED="1440243687253" TEXT="3&#xff1a;&#x5728;/usr/local/lib &#x4e0b;"/>
+<node CREATED="1440243691521" ID="ID_1064650130" MODIFIED="1440243818857" TEXT="4&#xff1a;sudo ln -s /Library/PostgreSQL/9.4/lib/libpq.5.dylib /usr/local/lib"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1440235440844" ID="ID_1732150941" MODIFIED="1440235448692" POSITION="right" TEXT="&#x5220;&#x9664;">
+<node CREATED="1440235451067" ID="ID_1452101798" MODIFIED="1440235459504" TEXT="mac&#x5e73;&#x53f0;">
+<node CREATED="1440235461459" ID="ID_793568375" MODIFIED="1440235480109" TEXT="&#x5982;&#x679c;&#x662f;.app&#x5b89;&#x88c5;&#xff0c;&#x76f4;&#x63a5;&#x5220;&#x9664;&#x5373;&#x53ef;"/>
+<node CREATED="1440235482572" ID="ID_1841938521" MODIFIED="1440235489181" TEXT="&#x5982;&#x679c;&#x662f;&#x56fe;&#x5f62;&#x5316;&#x5b89;&#x88c5;">
+<node CREATED="1440235494193" ID="ID_129882672" MODIFIED="1440235704275" TEXT="1&#xff1a;open /Library/PostgreSQL/9.2/uninstall-postgresql.app"/>
+<node CREATED="1440235706028" ID="ID_1143402995" MODIFIED="1440235718834" TEXT="2&#xff1a;sudo rm -rf /Library/PostgreSQL"/>
+<node CREATED="1440235729477" ID="ID_632685091" MODIFIED="1440235750219" TEXT="3&#xff1a;sudo rm /etc/postgres-reg.ini"/>
+<node CREATED="1440235753053" ID="ID_813064222" MODIFIED="1440235793386" TEXT="4&#xff1a;&#x5728;&#x7528;&#x6237;&#x7ba1;&#x7406;&#x4e2d;&#x5220;&#x9664;postgresql&#x7684;&#x7528;&#x6237;&#xff0c; &#x7cfb;&#x7edf;&#x504f;&#x597d;&#x8bbe;&#x7f6e;&#xff0d;&#xff0d;&#x300b;&#x7528;&#x6237;&#x53ca;&#x7528;&#x6237;&#x7ec4;"/>
+<node CREATED="1440235799100" ID="ID_66479314" MODIFIED="1440235823791" TEXT="5&#xff1a;&#x5220;&#x9664;&#x5171;&#x4eab;&#x5185;&#x5b58;&#x8bbe;&#x7f6e;(&#x5982;&#x679c;&#x5b58;&#x5728;)">
+<node CREATED="1440235836274" ID="ID_1487045752" MODIFIED="1440235837857" TEXT="sudo rm /etc/sysctl.conf"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1440348008440" ID="ID_1589976845" MODIFIED="1440348080286" POSITION="left" TEXT="&#x7528;&#x6237;">
+<node CREATED="1440348096122" ID="ID_6954035" MODIFIED="1440348124124" TEXT="&#x6570;&#x636e;&#x5e93;&#x7528;&#x6237;  &#x9ed8;&#x8ba4;&#x5b89;&#x88c5;&#x6210;&#x529f;&#x540e;&#x521b;&#x5efa;postgres&#x6570;&#x636e;&#x5e93;&#x7528;&#x6237;"/>
+<node CREATED="1440348128550" ID="ID_1303255409" MODIFIED="1440348150640" TEXT="&#x540c;&#x65f6;&#x521b;&#x5efa;&#x4e00;&#x4e2a;postgres&#x7684;Linux&#x7528;&#x6237;"/>
+<node CREATED="1440348154918" ID="ID_1706047422" MODIFIED="1440348170108" TEXT="&#x5e76;&#x521b;&#x5efa;&#x4e86;&#x4e00;&#x4e2a;postgres&#x7684;&#x6570;&#x636e;&#x5e93;"/>
+</node>
+</node>
+</map>
