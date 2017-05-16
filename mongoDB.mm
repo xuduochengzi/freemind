@@ -2,26 +2,159 @@
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1452565371433" ID="ID_843935734" MODIFIED="1490187461583" TEXT="mongoDB&#xa;3.4">
 <font NAME="SansSerif" SIZE="13"/>
-<node CREATED="1452573364182" HGAP="18" ID="ID_1822221732" MODIFIED="1489766002791" POSITION="left" TEXT="&#x6570;&#x636e;&#x5e93;" VSHIFT="-48">
+<node COLOR="#ff0000" CREATED="1452573364182" FOLDED="true" HGAP="18" ID="ID_1822221732" MODIFIED="1494904708820" POSITION="left" TEXT="&#x6570;&#x636e;&#x5e93;" VSHIFT="-48">
 <node CREATED="1452573473168" ID="ID_1139205852" MODIFIED="1489766002791" TEXT="&#x591a;&#x4e2a;&#x96c6;&#x5408;&#x5728;&#x4e00;&#x8d77;&#x5c31;&#x662f;&#x4e00;&#x4e2a;&#x6570;&#x636e;&#x5e93;"/>
+<node CREATED="1494814472865" ID="ID_740327088" MODIFIED="1494814667403">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#26597;&#30475;&#19968;&#20010;&#25968;&#25454;&#24211;&#23454;&#20363;&#25552;&#20379;&#21738;&#20123;&#26041;&#27861;
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1494814583909" ID="ID_1487076630" MODIFIED="1494814792424">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="2">&gt; db.help() </font>
+    </p>
+    <p>
+      <font size="2">DB methods: </font>
+    </p>
+    <p>
+      <font size="2">db.adminCommand(nameOrDocument) </font>
+    </p>
+    <p>
+      <font size="2">db.auth(username, password) </font>
+    </p>
+    <p>
+      <font size="2">db.version()</font>
+    </p>
+  </body>
+</html></richcontent>
+<arrowlink DESTINATION="ID_1487076630" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_165165284" STARTARROW="None" STARTINCLINATION="0;0;"/>
+<linktarget COLOR="#b0b0b0" DESTINATION="ID_1487076630" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_165165284" SOURCE="ID_1487076630" STARTARROW="None" STARTINCLINATION="0;0;"/>
+</node>
+<node CREATED="1494814672633" ID="ID_1641331639" MODIFIED="1494814694950" TEXT="&#x67e5;&#x770b;&#x6bcf;&#x4e2a;&#x65b9;&#x6cd5;&#x6e90;&#x7801;">
+<node CREATED="1494814731423" ID="ID_1853540152" MODIFIED="1494814747944">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="2">&gt; db.version </font>
+    </p>
+    <p>
+      <font size="2">function () { </font>
+    </p>
+    <p>
+      <font size="2">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;return this.serverBuildInfo().version; </font>
+    </p>
+    <p>
+      <font size="2">&#160;&#160;&#160;&#160;} </font>
+    </p>
+    <p>
+      <font size="2">&gt; </font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
 <node CREATED="1484659714451" ID="ID_1569610286" MODIFIED="1489766002791" TEXT="CURD">
 <node CREATED="1484659738794" ID="ID_1264632155" MODIFIED="1489766002791" TEXT="&#x663e;&#x793a;&#x6240;&#x6709;dbs">
 <node CREATED="1484659751105" ID="ID_607313881" MODIFIED="1489766002792" TEXT="show dbs;"/>
 </node>
+<node CREATED="1494814279624" ID="ID_270002980" MODIFIED="1494814288434" TEXT="&#x5f53;&#x524d;&#x6570;&#x636e;&#x540d;">
+<node CREATED="1494814292505" ID="ID_1927351531" MODIFIED="1494814326148">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &gt; db
+    </p>
+    <p>
+      test
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
 <node CREATED="1484659760829" ID="ID_1301806164" MODIFIED="1489766002792" TEXT="&#x521b;&#x5efa;&#x6570;&#x636e;&#x5e93;">
-<node CREATED="1484659830452" ID="ID_1459244495" MODIFIED="1489766002792" TEXT="&#x521b;&#x5efa;&#x6570;&#x636e;&#x5e93;&#x53ea;&#x9700;&#x4f7f;&#x7528;use  &#x6570;&#x636e;&#x5e93;&#x540d;&#xff0c;&#xa;&#x5982;&#x679c;&#x5b58;&#x5728;&#x5c31;&#x5207;&#x6362;&#x8fc7;&#x53bb;&#xa;&#x5982;&#x679c;&#x4e0d;&#x5b58;&#x5728;&#x5c31;&#x521b;&#x5efa;&#xff0c;&#x9700;&#x8981;&#x5f80;&#x6570;&#x636e;&#x5e93;&#x96c6;&#x5408;&#x63d2;&#x5165;&#x6570;&#x636e;&#x624d;&#x7b97;&#x771f;&#x7684;&#x521b;&#x5efa;&#x3002;&#xa;use  databases;"/>
+<node CREATED="1484659830452" ID="ID_1459244495" MODIFIED="1494814390814" TEXT="&#x521b;&#x5efa;&#x6570;&#x636e;&#x5e93;&#x53ea;&#x9700;&#x4f7f;&#x7528;use  &#x6570;&#x636e;&#x5e93;&#x540d;&#xff0c;&#xa;&#x5982;&#x679c;&#x5b58;&#x5728;&#x5c31;&#x5207;&#x6362;&#x8fc7;&#x53bb;&#xa;&#x5982;&#x679c;&#x4e0d;&#x5b58;&#x5728;&#x5c31;&#x521b;&#x5efa;&#xff0c;&#x9700;&#x8981;&#x5f80;&#x6570;&#x636e;&#x5e93;&#x96c6;&#x5408;&#x63d2;&#x5165;&#x6570;&#x636e;&#x624d;&#x7b97;&#x771f;&#x7684;&#x521b;&#x5efa;&#x3002;&#xa;use  databasename;"/>
 </node>
 <node CREATED="1484659827107" ID="ID_1543704476" MODIFIED="1489766002792" TEXT="&#x5220;&#x9664;&#x6570;&#x636e;&#x5e93;">
 <node CREATED="1484660076423" ID="ID_1510367907" MODIFIED="1489766002793" TEXT="&#x5148;use db; &#xa;&#x7136;&#x540e; db.dropDatabase();"/>
 </node>
 </node>
 </node>
-<node CREATED="1452573350220" ID="ID_1133998341" MODIFIED="1489766002793" POSITION="left" TEXT="&#x96c6;&#x5408;">
-<node CREATED="1453699939313" ID="ID_1408839150" MODIFIED="1489766002793" TEXT="&#x57fa;&#x672c;&#x6982;&#x5ff5;">
+<node COLOR="#ff0000" CREATED="1452573350220" ID="ID_1133998341" MODIFIED="1494922855327" POSITION="left" TEXT="&#x96c6;&#x5408;">
+<node CREATED="1453699939313" ID="ID_1408839150" MODIFIED="1494814803117" TEXT="&#x57fa;&#x672c;&#x6982;&#x5ff5;">
 <node CREATED="1452576309318" ID="ID_554799123" MODIFIED="1489766002793" TEXT="&#x5728;&#x63d2;&#x5165;&#x6587;&#x6863;&#x65f6;&#xff0c;&#x5982;&#x679c;&#x96c6;&#x5408;&#x4e0d;&#x5b58;&#x5728;&#xff0c;&#x96c6;&#x5408;&#x4f1a;&#x81ea;&#x52a8;&#x521b;&#x5efa;"/>
 <node CREATED="1452573451396" ID="ID_457385745" MODIFIED="1489766002793" TEXT="&#x591a;&#x4e2a;&#x6587;&#x6863;&#x5728;&#x4e00;&#x8d77;&#x53eb;&#x96c6;&#x5408;&#xff0c;&#x7c7b;&#x4f3c;table"/>
 </node>
-<node CREATED="1453699947017" ID="ID_1683416353" MODIFIED="1489766002793" TEXT="&#x64cd;&#x4f5c;">
+<node CREATED="1494814810659" HGAP="21" ID="ID_657635755" MODIFIED="1494815353499" TEXT="&#x67e5;&#x770b;&#x4e00;&#x4e2a;&#x96c6;&#x5408;&#x63d0;&#x4f9b;&#x54ea;&#x4e9b;&#x65b9;&#x6cd5;" VSHIFT="19">
+<node CREATED="1494815344668" ID="ID_1306380488" MODIFIED="1494815525244">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="2">&gt; db.fivedata.help() </font>
+    </p>
+    <p>
+      <font size="2">DBCollection help </font>
+    </p>
+    <p>
+      <font size="2">db.fivedata.find().help() - show DBCursor help </font>
+    </p>
+    <p>
+      <font size="2">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;db.fivedata.createIndex(keypattern[,options]) </font>
+    </p>
+    <p>
+      <font size="2">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;db.fivedata.createIndexes([keypatterns], &lt;options&gt;) </font>
+    </p>
+    <p>
+      <font size="2">db.fivedata.dataSize()</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1494815533177" ID="ID_1813132379" MODIFIED="1494815539214" TEXT="&#x67e5;&#x770b;&#x65b9;&#x6cd5;&#x7684;&#x6e90;&#x7801;">
+<node CREATED="1494815751007" ID="ID_1879442367" MODIFIED="1494815764987">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="2">&gt; db.fivedata.dataSize </font>
+    </p>
+    <p>
+      <font size="2">function () { </font>
+    </p>
+    <p>
+      <font size="2">&#160;&#160;&#160;&#160;return this.stats().size; </font>
+    </p>
+    <p>
+      <font size="2">} </font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1453699947017" ID="ID_1683416353" MODIFIED="1494815358019" TEXT="&#x64cd;&#x4f5c;" VSHIFT="26">
 <node CREATED="1453700024953" ID="ID_396732545" MODIFIED="1489766002793" TEXT="&#x589e;">
 <node CREATED="1484660401440" ID="ID_969618800" MODIFIED="1489766002794" TEXT="&#x63d2;&#x5165;&#x6587;&#x6863;&#x65f6;&#xff0c;&#x81ea;&#x52a8;&#x521b;&#x5efa;&#x96c6;&#x5408;"/>
 </node>
@@ -33,7 +166,7 @@
 </node>
 </node>
 </node>
-<node BACKGROUND_COLOR="#cccccc" COLOR="#ff6600" CREATED="1453699776984" HGAP="19" ID="ID_1348598608" MODIFIED="1489766002794" POSITION="left" STYLE="fork" TEXT="&#x6587;&#x6863;" VSHIFT="45">
+<node BACKGROUND_COLOR="#cccccc" COLOR="#ff6600" CREATED="1453699776984" FOLDED="true" HGAP="19" ID="ID_1348598608" MODIFIED="1494922853892" POSITION="left" STYLE="fork" TEXT="&#x6587;&#x6863;" VSHIFT="45">
 <node CREATED="1453700136631" ID="ID_927246555" MODIFIED="1489766002794" TEXT="&#x5b9a;&#x4e49;" VSHIFT="-10">
 <node CREATED="1453700146334" ID="ID_1711795603" MODIFIED="1489766002794" TEXT="&#x7c7b;&#x4f3c;&#x4e8e;&#x4e00;&#x4e2a;&#x5b57;&#x5178;&#x5bf9;&#x8c61;">
 <node CREATED="1453700290578" ID="ID_1999766448" MODIFIED="1489766002794" TEXT="{&#x201c;title&#x201d;:&quot;hello word&quot;,&quot;count&quot;:1}"/>
@@ -85,12 +218,91 @@
 </node>
 <node CREATED="1453700212497" ID="ID_866858982" MODIFIED="1489766002802" TEXT="&#x67e5;" VSHIFT="39">
 <node CREATED="1453701635112" ID="ID_996574465" MODIFIED="1489766002803" TEXT="db.blog.find({ })"/>
+<node CREATED="1494919758335" ID="ID_1223396006" MODIFIED="1494919759984" TEXT="db.foo.find({&quot;_id&quot; : ObjectId(&quot;544a3dc0d4646f0c8c904962&quot;)})"/>
 <node CREATED="1453701657278" ID="ID_1255848728" MODIFIED="1489766002803" TEXT="db.blog.findone({ })"/>
 <node CREATED="1484649354666" ID="ID_1588949048" MODIFIED="1489766002803" TEXT="&#x805a;&#x5408;">
 <node CREATED="1484649360455" ID="ID_686902462" MODIFIED="1489766002803" TEXT="&#x591a;&#x4e2a;&#x5206;&#x7ec4;&#x6761;&#x4ef6;">
 <node CREATED="1484649410285" ID="ID_1887845188" MODIFIED="1489766002803" TEXT="max_city_info = cls.db.macstat.aggregate([   &#xa; {&quot;$group&quot;: {&quot;_id&quot;: {&quot;province_name&quot;: &quot;$province_name&quot;, &quot;package&quot;: &quot;$package&quot;},&#xa;                 &quot;count&quot;: {&quot;$sum&quot;: 1}&#xa;                  }&#xa;}, &#xa;{&quot;$sort&quot;: {&quot;count&quot;: -1}}, &#xa;{&quot;$limit&quot;: num} ] &#xa; )"/>
 </node>
 </node>
+</node>
+</node>
+</node>
+<node CREATED="1494904723293" ID="ID_172903553" MODIFIED="1494904726694" POSITION="left" TEXT="&#x7d22;&#x5f15;">
+<node CREATED="1494922704128" ID="ID_459659855" MODIFIED="1494922713798" TEXT="&#x5355;&#x5efa;&#x7d22;&#x5f15;">
+<node CREATED="1494922749687" ID="ID_1532420425" MODIFIED="1494922753335" TEXT="&#x83b7;&#x53d6;"/>
+<node CREATED="1494922723732" ID="ID_231068579" MODIFIED="1494922725811" TEXT="&#x521b;&#x5efa;">
+<node CREATED="1494923029214" ID="ID_1929695913" MODIFIED="1494923049684">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="2" face="&#x5b8b;&#x4f53;" color="rgb(51, 51, 51)">db.test.ensureIndex( </font>
+    </p>
+    <p>
+      <font size="2" face="&#x5b8b;&#x4f53;" color="rgb(51, 51, 51)">&#160;&#160;&#160;&#160;{name:1},{name:'index_name'} </font>
+    </p>
+    <p>
+      <font size="2" face="&#x5b8b;&#x4f53;" color="rgb(51, 51, 51)">)</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1494922728444" ID="ID_695461750" MODIFIED="1494922730342" TEXT="&#x5220;&#x9664;"/>
+</node>
+<node CREATED="1494922716501" ID="ID_1288589703" MODIFIED="1494922720984" TEXT="&#x590d;&#x5408;&#x7d22;&#x5f15;">
+<node CREATED="1494922734563" ID="ID_805601435" MODIFIED="1494922736737" TEXT="&#x521b;&#x5efa;">
+<node CREATED="1494922930468" ID="ID_1187476123" MODIFIED="1494923016461">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="2">db.test.ensureIndex( </font>
+    </p>
+    <p>
+      <font size="2">&#160;&#160;&#160;&#160;{name:1,age:1,sex:1}, {name:'index_nas'} </font>
+    </p>
+    <p>
+      <font size="2">) </font>
+    </p>
+    <p>
+      <font size="2">name age sex shi &#25991;&#26723;&#30340;key&#20540; </font>
+    </p>
+    <p>
+      <font size="2">&#21518;&#38754;&#30340;name&#29992;&#26469;&#23450;&#20041;&#32034;&#24341;&#21517;&#23383;</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1494922739025" ID="ID_742287018" MODIFIED="1494922741253" TEXT="&#x5220;&#x9664;"/>
+</node>
+<node CREATED="1494922768333" ID="ID_1914641559" MODIFIED="1494922779884" TEXT="&#x83b7;&#x53d6;&#x96c6;&#x5408;&#x5b58;&#x5728;&#x7684;&#x7d22;&#x5f15;">
+<node CREATED="1494922828398" ID="ID_130433662" MODIFIED="1494922840154" TEXT="db.getCollection(&apos;colname&apos;).getIndexes()"/>
+</node>
+<node COLOR="#ff0000" CREATED="1494923577919" HGAP="23" ID="ID_920512163" MODIFIED="1494923599769" TEXT="&#x7d22;&#x5f15;&#x6ce8;&#x610f;&#x4e8b;&#x9879;" VSHIFT="13">
+<node CREATED="1494923602071" ID="ID_1671917789" MODIFIED="1494923733939">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="3">&#23558;&#31561;&#20540;&#32034;&#24341;&#25918;&#22312;&#26368;&#21069;&#38754;&#160;&#160;,&#31561;&#20540;&#19968;&#33324;&#26159;find&#30340;&#26465;&#20214; </font>
+    </p>
+    <p>
+      <font size="3">&#23613;&#37327;&#23558;&#25490;&#24207;&#23383;&#27573;&#25918;&#22312;&#33539;&#22260;&#23383;&#27573;&#30340;&#21069;&#38754; &#25490;&#24207;&#23383;&#27573;&#26159;sort&#30340;&#26465;&#20214;</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 </node>
@@ -114,18 +326,43 @@
 <node CREATED="1483680879830" ID="ID_828451993" MODIFIED="1489766002804" TEXT="sudo rm -r /var/log/mongodb  #&#x8fd9;&#x662f;&#x65e5;&#x5fd7;&#x4fdd;&#x5b58;&#x4f4d;&#x7f6e;&#xff0c;&#x5b9e;&#x9645;&#x6839;&#x636e;&#x4f60;&#x7684;&#x914d;&#x7f6e;&#x6587;&#x4ef6;&#x8fdb;&#x884c;&#x5220;&#x9664;&#xa;sudo rm -r /var/lib/mongodb   #&#x8fd9;&#x662f;&#x6570;&#x636e;&#x4fdd;&#x5b58;&#x4f4d;&#x7f6e;&#xff0c;&#x5b9e;&#x9645;&#x6839;&#x636e;&#x4f60;&#x7684;&#x914d;&#x7f6e;&#x6587;&#x4ef6;&#x8fdb;&#x884c;&#x5220;&#x9664;"/>
 </node>
 </node>
-<node CREATED="1490187673917" ID="ID_395619630" MODIFIED="1490189139816" POSITION="right" TEXT="mongoDB&#x540d;&#x8bcd;&#x4ecb;&#x7ecd;" VSHIFT="16">
+<node CREATED="1490187673917" ID="ID_395619630" MODIFIED="1494813942595" POSITION="right" VSHIFT="16">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      mongoDB&#23433;&#35013;&#21518;&#21508;&#32452;&#20214;
+    </p>
+  </body>
+</html></richcontent>
 <node CREATED="1490189142921" ID="ID_310086868" MODIFIED="1490189147488" TEXT="&#x540d;&#x8bcd;&#x89e3;&#x91ca;">
 <node CREATED="1490189391852" ID="ID_59669755" MODIFIED="1490189405621" TEXT="&#x4e00;&#x4e2a;&#x6570;&#x636e;&#x5e93;">
 <node CREATED="1490189431455" ID="ID_1090673063" MODIFIED="1490189549450" TEXT="&#x8fd0;&#x884c;&#x4e00;&#x4e2a;mongoDB&#x670d;&#x52a1;&#x5668;&#xff0c;&#x4f1a;&#x5305;&#x542b;&#x4e00;&#x4e2a;&#x6216;&#x591a;&#x4e2a;&#x6570;&#x636e;&#x5e93;&#x3002;&#xa;&#x6bcf;&#x4e2a;&#x6570;&#x636e;&#x5e93;&#x6709;&#x4e00;&#x4e2a;&#x540d;&#x5b57;&#x3002;&#xa;&#x6570;&#x636e;&#x5e93;&#x7531;&#x96c6;&#x5408;&#x7ec4;&#x6210;&#xff0c;&#x96c6;&#x5408;&#x7531;&#x6587;&#x6863;&#x7ec4;&#x6210;&#x3002;&#xa;&#x4e00;&#x4e2a;&#x6216;&#x591a;&#x4e2a;&#x6587;&#x6863;&#x7ec4;&#x6210;&#x4e00;&#x4e2a;&#x96c6;&#x5408;&#xff0c;&#x4e00;&#x4e2a;&#x6216;&#x591a;&#x4e2a;&#x96c6;&#x5408;&#x7ec4;&#x6210;&#x4e00;&#x4e2a;&#x6570;&#x636e;&#x5e93;"/>
 </node>
 <node CREATED="1490189409230" ID="ID_1094288650" MODIFIED="1491408490432" TEXT="&#x4e00;&#x4e2a;&#x96c6;&#x5408;collection">
 <node CREATED="1490189557423" ID="ID_181705435" MODIFIED="1490189687263" TEXT="&#x96c6;&#x5408;&#x5185;&#x7531;&#x6587;&#x6863;&#x7ec4;&#x6210;&#xff0c;&#x96c6;&#x5408;&#x76f8;&#x5f53;&#x4e8e;excel&#x7684;&#x4e00;&#x5f20;&#x8868;&#xa;"/>
+<node COLOR="#ff0000" CREATED="1494812089715" ID="ID_585502033" MODIFIED="1494812111832" TEXT="&#x5b50;&#x96c6;&#x5408;"/>
 </node>
 <node CREATED="1490189419023" ID="ID_1341918998" MODIFIED="1491408480882" TEXT="&#x4e00;&#x4e2a;&#x6587;&#x6863;document">
-<node CREATED="1490189690817" ID="ID_716343497" MODIFIED="1490190074443" TEXT="&#x4e00;&#x4e2a;&#x6587;&#x6863;&#x4ee3;&#x8868;excel&#x8868;&#x91cc;&#x4e00;&#x884c;&#x6570;&#x636e;&#xff0c;&#x662f;BSON&#x7684;&#x6587;&#x6863; &#xff0c;&#x7531;key value&#x5f62;&#x5f0f;&#x7ec4;&#x6210;&#xff0c;&#x6bcf;&#x4e2a;valu&#x53c8;&#x6709;&#x4e0d;&#x540c;&#x7684;&#x6570;&#x636e;&#x7c7b;&#x578b;&#xa;{&#xa;   field1: value1,&#xa;   field2: value2,&#xa;   field3: value3,&#xa;   ...&#xa;   fieldN: valueN&#xa;}">
-<node CREATED="1490191578839" ID="ID_101587501" MODIFIED="1490191589932" TEXT="&#x4e24;&#x4e2a;&#x9650;&#x5236;">
+<node CREATED="1490189690817" ID="ID_716343497" MODIFIED="1494811348474" TEXT="&#x4e00;&#x4e2a;&#x6587;&#x6863;&#x4ee3;&#x8868;excel&#x8868;&#x91cc;&#x4e00;&#x884c;&#x6570;&#x636e;&#xff0c;&#x662f;BSON&#x7684;&#x6587;&#x6863; &#xff0c;&#x7531;key value&#x5f62;&#x5f0f;&#x7ec4;&#x6210;&#xff0c;&#x6bcf;&#x4e2a;valu&#x53c8;&#x6709;&#x4e0d;&#x540c;&#x7684;&#x6570;&#x636e;&#x7c7b;&#x578b;&#xa;{&#xa;   field1: value1,&#xa;   ...&#xa;   fieldN: valueN&#xa;}">
+<node CREATED="1490191578839" ID="ID_101587501" MODIFIED="1494811367907">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#27880;&#24847;
+    </p>
+  </body>
+</html></richcontent>
 <node CREATED="1490191594939" ID="ID_1519007119" MODIFIED="1490191604208" TEXT="&#x5355;&#x4e2a;&#x6587;&#x6863;&#x4e0d;&#x5927;&#x4e8e;16MB"/>
+<node CREATED="1494811380339" ID="ID_1946067227" MODIFIED="1494811393683" TEXT="&#x6587;&#x6863;&#x4e2d;&#x7684;&#x952e;&#x503c;&#x5bf9;&#x662f;&#x6709;&#x5e8f;&#x7684;"/>
+<node CREATED="1494811400063" ID="ID_949744715" MODIFIED="1494811424950" TEXT="&#x6587;&#x6863;&#x4e2d;&#x7684;&#x503c;&#x6709;&#x6570;&#x636e;&#x7c7b;&#x578b;"/>
+<node CREATED="1494811429710" ID="ID_1707009347" MODIFIED="1494811440404" TEXT="&#x6587;&#x6863;&#x7684;&#x952e;&#x4e0d;&#x80fd;&#x91cd;&#x590d;"/>
+<node CREATED="1494811446436" ID="ID_1956207937" MODIFIED="1494811457285" TEXT="&#x6587;&#x6863;&#x7684;&#x952e;"/>
 <node CREATED="1490191787287" ID="ID_832516708" MODIFIED="1490191971849" TEXT="&#x6587;&#x6863;&#x5185;&#x5b57;&#x6bb5;&#x987a;&#x5e8f;&#x6309;&#x63d2;&#x5165;&#x65f6;&#x7684;&#x987a;&#x5e8f;&#x4fdd;&#x5b58;&#xa;id&#x5b57;&#x6bb5;&#x6c38;&#x8fdc;&#x7b2c;&#x4e00;&#x4e2a;&#x5b57;&#x6bb5;"/>
 </node>
 </node>
@@ -139,14 +376,41 @@
 <node CREATED="1490193010736" ID="ID_1078930457" MODIFIED="1490193032340" TEXT="mongDB&#x6570;&#x636e;&#x5e93;&#x7684;&#x670d;&#x52a1;&#x5668;&#x5305;&#xff0c;"/>
 </node>
 <node CREATED="1490192947755" ID="ID_963463766" MODIFIED="1490192973408" TEXT="mongodb-org-shell">
-<node CREATED="1490193034781" ID="ID_413200476" MODIFIED="1490193047663" TEXT="&#x94fe;&#x63a5;&#x670d;&#x52a1;&#x5668;&#x7684;&#x4e00;&#x4e2a;&#x4ea4;&#x4e92;&#x5f0f;&#x5ba2;&#x6237;&#x7aef;"/>
+<node CREATED="1490193034781" ID="ID_413200476" MODIFIED="1494813301398">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#38142;&#25509;&#26381;&#21153;&#22120;&#30340;&#19968;&#20010;&#20132;&#20114;&#24335;&#23458;&#25143;&#31471;
+    </p>
+    <p>
+      &#65288;&#23601;&#26159;mongos&#65289;
+    </p>
+  </body>
+</html></richcontent>
+</node>
 </node>
 <node CREATED="1490192747063" ID="ID_350373535" MODIFIED="1490192757157" TEXT="mongodb-org-mongos">
 <node CREATED="1490193087840" ID="ID_515113210" MODIFIED="1490193103740" TEXT="mongos&#x670d;&#x52a1;&#x5305;"/>
 </node>
 <node CREATED="1490192984927" ID="ID_176473727" MODIFIED="1490193132606" TEXT="mongodb-org-tools&#xa;&#xff08;&#x63d0;&#x4f9b;&#x64cd;&#x4f5c;mongoDB&#x7684;&#x4e00;&#x4e9b;&#x5de5;&#x5177;&#xff09;">
-<node CREATED="1490193239690" ID="ID_1242993862" MODIFIED="1490193272933" TEXT=" mongoimport&#xa; bsondump,&#xa; mongodump, &#xa;mongoexport, &#xa;mongofiles, &#xa;mongooplog, &#xa;mongoperf, &#xa;mongorestore, &#xa;mongostat,&#xa;mongotop.&#xa;"/>
-<node COLOR="#ff0000" CREATED="1490969360727" ID="ID_444081491" MODIFIED="1490969370176" TEXT="mongodump">
+<node CREATED="1490193239690" ID="ID_1242993862" MODIFIED="1494814097058" TEXT="mongo &#xa;mongoimport&#xa; bsondump,&#xa; mongodump, &#xa;mongoexport, &#xa;mongofiles, &#xa;mongooplog, &#xa;mongoperf, &#xa;mongorestore, &#xa;mongostat,&#xa;mongotop.&#xa;"/>
+<node COLOR="#ff0000" CREATED="1490969360727" ID="ID_444081491" MODIFIED="1494814197952">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      mongodump
+    </p>
+    <p>
+      (&#22791;&#20221;&#25968;&#25454;&#24211;&#24037;&#20855;)
+    </p>
+  </body>
+</html></richcontent>
 <node CREATED="1490969373780" ID="ID_123295575" MODIFIED="1490969412587" TEXT="mongodump&#x3000;--help"/>
 <node CREATED="1490969416928" ID="ID_978606276" MODIFIED="1490969467995" TEXT="mongodump -h dbhost -d dbname -o dbdirectory&#xa;        &#x53c2;&#x6570;&#x8bf4;&#x660e;&#xff1a;&#xa;            -h&#xff1a; MongDB&#x6240;&#x5728;&#x670d;&#x52a1;&#x5668;&#x5730;&#x5740;&#xff0c;&#x4f8b;&#x5982;&#xff1a;127.0.0.1&#xff0c;&#x5f53;&#x7136;&#x4e5f;&#x53ef;&#x4ee5;&#x6307;&#x5b9a;&#x7aef;&#x53e3;&#x53f7;&#xff1a;127.0.0.1:27017&#xa;            -d&#xff1a; &#x9700;&#x8981;&#x5907;&#x4efd;&#x7684;&#x6570;&#x636e;&#x5e93;&#x5b9e;&#x4f8b;&#xff0c;&#x4f8b;&#x5982;&#xff1a;test&#xa;            -o&#xff1a; &#x5907;&#x4efd;&#x7684;&#x6570;&#x636e;&#x5b58;&#x653e;&#x4f4d;&#x7f6e;&#xff0c;&#x4f8b;&#x5982;&#xff1a;/home/mongodump/&#xff0c;&#x5f53;&#x7136;&#x8be5;&#x76ee;&#x5f55;&#x9700;&#x8981;&#x63d0;&#x524d;&#x5efa;&#x7acb;&#xff0c;&#x8fd9;&#x4e2a;&#x76ee;&#x5f55;&#x91cc;&#x9762;&#x5b58;&#x653e;&#x8be5;&#x6570;&#x636e;&#x5e93;&#x5b9e;&#x4f8b;&#x7684;&#x5907;&#x4efd;&#x6570;&#x636e;&#x3002;"/>
 <node CREATED="1490969472940" ID="ID_323946053" MODIFIED="1490969534612" TEXT=" sudo mongodump -h 192.168.17.129:27017 -d itcast -o /home/mongodump/"/>
@@ -155,27 +419,57 @@
 <node CREATED="1490969573304" ID="ID_1682537507" MODIFIED="1490969584286" TEXT="mongorestore --help"/>
 <node CREATED="1490969619979" ID="ID_274666592" MODIFIED="1490969628817" TEXT="&#x53c2;&#x6570;&#x6216;&#x540d;&#xff1a;&#xa;            -h&#xff1a; MongoDB&#x6240;&#x5728;&#x670d;&#x52a1;&#x5668;&#x5730;&#x5740;&#xa;            -d&#xff1a; &#x9700;&#x8981;&#x6062;&#x590d;&#x7684;&#x6570;&#x636e;&#x5e93;&#x5b9e;&#x4f8b;&#xff0c;&#x4f8b;&#x5982;&#xff1a;test&#xff0c;&#x5f53;&#x7136;&#x8fd9;&#x4e2a;&#x540d;&#x79f0;&#x4e5f;&#x53ef;&#x4ee5;&#x548c;&#x5907;&#x4efd;&#x65f6;&#x5019;&#x7684;&#x4e0d;&#x4e00;&#x6837;&#xff0c;&#x6bd4;&#x5982;test2&#xa;            --dir&#xff1a; &#x5907;&#x4efd;&#x6570;&#x636e;&#x6240;&#x5728;&#x4f4d;&#x7f6e;&#xff0c;&#x4f8b;&#x5982;&#xff1a;/home/mongodump/itcast/&#xa;            --drop&#xff1a; &#x6062;&#x590d;&#x7684;&#x65f6;&#x5019;&#xff0c;&#x5148;&#x5220;&#x9664;&#x5f53;&#x524d;&#x6570;&#x636e;&#xff0c;&#x7136;&#x540e;&#x6062;&#x590d;&#x5907;&#x4efd;&#x7684;&#x6570;&#x636e;&#x3002;&#x5c31;&#x662f;&#x8bf4;&#xff0c;&#x6062;&#x590d;&#x540e;&#xff0c;&#x5907;&#x4efd;&#x540e;&#x6dfb;&#x52a0;&#x4fee;&#x6539;&#x7684;&#x6570;&#x636e;&#x90fd;&#x4f1a;&#x88ab;&#x5220;&#x9664;&#xff0c;&#x614e;&#x7528;&#xff01;"/>
 </node>
-<node COLOR="#ff0000" CREATED="1490938105437" ID="ID_1948279860" MODIFIED="1490968686278" TEXT="mongoexport">
+<node COLOR="#ff0000" CREATED="1490938105437" ID="ID_1948279860" MODIFIED="1494814228561">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      mongoexport
+    </p>
+    <p>
+      (&#23548;&#20986;&#25968;&#25454;&#24037;&#20855;)
+    </p>
+  </body>
+</html></richcontent>
 <node CREATED="1490969063312" ID="ID_562974579" MODIFIED="1490969065952" TEXT="mongoexport  --help"/>
 <node CREATED="1490938140620" ID="ID_294162688" MODIFIED="1490968910205" TEXT="mongoexport -d dbname -c collectionname -o file --type json/csv -f field&#xa;&#x53c2;&#x6570;&#x8bf4;&#x660e;&#xff1a;&#xa;-h:&#x6307;&#x660e;&#x6570;&#x636e;&#x5e93;&#x5bbf;&#x4e3b;&#x673a;&#x7684;IP&#xa;-u:&#x6307;&#x660e;&#x6570;&#x636e;&#x5e93;&#x7684;&#x7528;&#x6237;&#x540d;&#xa;-p:&#x6307;&#x660e;&#x6570;&#x636e;&#x5e93;&#x7684;&#x5bc6;&#x7801;&#xa;-d:&#x6307;&#x660e;&#x6570;&#x636e;&#x5e93;&#x7684;&#x540d;&#x5b57;&#xa;-c:&#x6307;&#x660e;collection&#x7684;&#x540d;&#x5b57;&#xa;-f:&#x6307;&#x660e;&#x8981;&#x5bfc;&#x51fa;&#x90a3;&#x4e9b;&#x5217;&#xa;-o:&#x6307;&#x660e;&#x5230;&#x8981;&#x5bfc;&#x51fa;&#x7684;&#x6587;&#x4ef6;&#x540d;&#xa;-q:&#x6307;&#x660e;&#x5bfc;&#x51fa;&#x6570;&#x636e;&#x7684;&#x8fc7;&#x6ee4;&#x6761;&#x4ef6;&#xa;--type  &#x8f93;&#x51fa;&#x683c;&#x5f0f;&#xff0c;&#x9ed8;&#x8ba4;&#x4e3a;json"/>
 <node CREATED="1490938185852" ID="ID_917960704" MODIFIED="1490938343031" TEXT="&#xa;sudo mongoexport -d mongotest -c users -o /home/python/Desktop/mongoDB/users.json --type json -f  &quot;_id,user_id,user_name,age,status&quot;"/>
 </node>
-<node COLOR="#ff0000" CREATED="1490938222100" HGAP="18" ID="ID_697892780" MODIFIED="1490969169977" TEXT="mongoimport" VSHIFT="25">
+<node COLOR="#ff0000" CREATED="1490938222100" HGAP="18" ID="ID_697892780" MODIFIED="1494814242576" VSHIFT="25">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      mongoimport
+    </p>
+    <p>
+      (&#23548;&#20837;&#25968;&#25454;&#24037;&#20855;)
+    </p>
+  </body>
+</html></richcontent>
 <node CREATED="1490969162249" ID="ID_195810679" MODIFIED="1490969163963" TEXT="mongoimport  --help"/>
 <node CREATED="1490938313476" ID="ID_1709418646" MODIFIED="1490969284926" TEXT="mongoimport -d dbname -c collectionname --file filename --headerline --type json/csv -f field&#xa;&#x53c2;&#x6570;&#x8bf4;&#x660e;&#xff1a;&#xa;-h:&#x6307;&#x660e;&#x6570;&#x636e;&#x5e93;&#x5bbf;&#x4e3b;&#x673a;&#x7684;IP&#xa;-u:&#x6307;&#x660e;&#x6570;&#x636e;&#x5e93;&#x7684;&#x7528;&#x6237;&#x540d;&#xa;-d &#xff1a;&#x6570;&#x636e;&#x5e93;&#x540d;&#xa;-c &#xff1a;collection&#x540d;&#xa;--type &#xff1a;&#x5bfc;&#x5165;&#x7684;&#x683c;&#x5f0f;&#x9ed8;&#x8ba4;json&#xa;-f &#xff1a;&#x5bfc;&#x5165;&#x7684;&#x5b57;&#x6bb5;&#x540d;&#xa;--headerline &#xff1a;&#x5982;&#x679c;&#x5bfc;&#x5165;&#x7684;&#x683c;&#x5f0f;&#x662f;csv&#xff0c;&#x5219;&#x53ef;&#x4ee5;&#x4f7f;&#x7528;&#x7b2c;&#x4e00;&#x884c;&#x7684;&#x6807;&#x9898;&#x4f5c;&#x4e3a;&#x5bfc;&#x5165;&#x7684;&#x5b57;&#x6bb5;&#xa;--file &#xff1a;&#x8981;&#x5bfc;&#x5165;&#x7684;&#x6587;&#x4ef6;"/>
 <node CREATED="1490938348142" ID="ID_60564289" MODIFIED="1490938364399" TEXT="sudo mongoimport -d mongotest -c users --file /home/mongodump/articles.json --type json"/>
 </node>
-</node>
-</node>
-</node>
-<node COLOR="#ff0000" CREATED="1490193297197" ID="ID_1585228617" MODIFIED="1491408801550" POSITION="right" TEXT="mongos&#xa;&#x94fe;&#x63a5;mongdb&#x670d;&#x52a1;&#x5668;&#x7684;&#x5ba2;&#x6237;&#x7aef;">
+<node COLOR="#ff0000" CREATED="1490193297197" ID="ID_1585228617" MODIFIED="1494813499408" TEXT="mongos&#xa;&#x4e0e;MongoDB &#x4ea4;&#x4e92;&#x7684;&#x547d;&#x4ee4;&#x884c;&#x5f0f;&#x5ba2;&#x6237;&#x7aef;">
 <node CREATED="1491584995528" ID="ID_530676253" MODIFIED="1491584997067" TEXT=" mongo --help"/>
+<node CREATED="1494813798796" ID="ID_26415457" MODIFIED="1494813802352" TEXT="&#x57fa;&#x672c;&#x4f7f;&#x7528;">
+<node CREATED="1494813806230" ID="ID_11084381" MODIFIED="1494813859363" TEXT="mongo -u admin  -p admin   -h  127.9.0.1:8080 "/>
+<node CREATED="1494813835282" ID="ID_516250274" MODIFIED="1494813841303" TEXT="mongo --version"/>
+</node>
 <node CREATED="1491589348492" ID="ID_1909746712" MODIFIED="1491589367515" TEXT="&#x96c6;&#x5408;&#x540d;&#x5b57;&#x64cd;&#x4f5c;">
 <node CREATED="1491589376538" ID="ID_860591856" MODIFIED="1491589377846" TEXT="db.myCollection.insertOne( { x: 1 } );"/>
 <node CREATED="1491589388107" ID="ID_672083106" MODIFIED="1491589389461" TEXT="db[&quot;3test&quot;].find()"/>
 <node CREATED="1491589397640" ID="ID_1308483742" MODIFIED="1491589398887" TEXT="db.getCollection(&quot;3test&quot;).find()"/>
 </node>
 <node CREATED="1491589027656" ID="ID_1900935581" MODIFIED="1491589036650" TEXT="quit() &#x9000;&#x51fa;&#x94fe;&#x63a5;"/>
+</node>
+</node>
+</node>
 </node>
 <node COLOR="#ff0000" CREATED="1490187392682" ID="ID_367916449" MODIFIED="1490187597445" POSITION="right" TEXT="mongd.conf">
 <node CREATED="1490187468886" ID="ID_1160148881" MODIFIED="1490187472084" TEXT="&#x4f4d;&#x7f6e;">
@@ -249,23 +543,7 @@
 <node CREATED="1490189205379" ID="ID_1945163988" MODIFIED="1490189206875" TEXT="WiredTiger Storage Engine "/>
 <node CREATED="1490189217088" ID="ID_1135892239" MODIFIED="1490189218273" TEXT="MMAPv1 Storage Engine."/>
 </node>
-<node CREATED="1452573588861" HGAP="21" ID="ID_1995902247" MODIFIED="1489766002805" POSITION="right" TEXT="PyMongo" VSHIFT="59">
-<node CREATED="1452573595883" ID="ID_17583046" MODIFIED="1489766002805" TEXT="pip install pymongo"/>
-<node CREATED="1452573619829" ID="ID_191775333" MODIFIED="1489766002805" TEXT="from pymongo import MongoClient">
-<node CREATED="1452574393598" ID="ID_1771178808" MODIFIED="1489766002805" TEXT="&#x5ba2;&#x6237;&#x7aef;">
-<node CREATED="1452573640097" ID="ID_276860762" MODIFIED="1489766002805" TEXT="client = MongoClient()"/>
-</node>
-<node CREATED="1452573651788" HGAP="14" ID="ID_843297140" MODIFIED="1489766002806" TEXT="client = MongoClient(&quot;mongodb://mongodb0.example.net:27019&quot;)" VSHIFT="7">
-<node CREATED="1452574381467" ID="ID_1696006929" MODIFIED="1489766002806" TEXT="&#x6570;&#x636e;&#x5e93;">
-<node CREATED="1452574400022" ID="ID_951188431" MODIFIED="1489766002806" TEXT="db = client.primer&#xa;db = client[&apos;primer&apos;]"/>
-</node>
-<node CREATED="1452574437156" ID="ID_1055807931" MODIFIED="1489766002806" TEXT="&#x96c6;&#x5408;">
-<node CREATED="1452574446106" ID="ID_1667532522" MODIFIED="1489766002806" TEXT="coll = db.dataset &#xa;coll = db[&apos;dataset&apos;]"/>
-</node>
-</node>
-</node>
-</node>
-<node CREATED="1483592914882" FOLDED="true" ID="ID_259967475" MODIFIED="1491408429887" POSITION="left" TEXT="&#x526f;&#x672c;&#x96c6;&#xff08;replica set&#xff09;">
+<node CREATED="1483592914882" FOLDED="true" HGAP="15" ID="ID_259967475" MODIFIED="1494922789334" POSITION="left" TEXT="&#x526f;&#x672c;&#x96c6;&#xff08;replica set&#xff09;" VSHIFT="17">
 <node CREATED="1483594157705" HGAP="70" ID="ID_1646187502" MODIFIED="1489766002807" TEXT="&#x65b0;&#x5efa;&#x526f;&#x672c;&#x96c6;" VSHIFT="-2">
 <node CREATED="1483594164951" HGAP="17" ID="ID_14885462" MODIFIED="1489766002807" TEXT="1&#xff1a;&#x5047;&#x8bbe;&#x4e09;&#x4e2a;&#x673a;&#x5668;&#xff0c;&#x7cfb;&#x7edf;ubuntu 14.04&#xa;192.168.0.1&#xa;192.168.0.2&#xa;192.168.0.3" VSHIFT="57"/>
 <node CREATED="1483594207475" ID="ID_90235456" MODIFIED="1489766002808" TEXT="2&#xff1a;&#x6bcf;&#x53f0;&#x673a;&#x5668;&#x5b89;&#x88c5;mongod , &#x91c7;&#x7528;&#x5b98;&#x7f51;ubuntu&#x5b89;&#x88c5;mongoDB&#x65b9;&#x5f0f;"/>

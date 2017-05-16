@@ -1,7 +1,7 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1439789286495" ID="ID_1757958906" MODIFIED="1441867790049" STYLE="bubble" TEXT="GIT">
-<font NAME="Monaco" SIZE="12"/>
+<font NAME="Dialog" SIZE="12"/>
 <node BACKGROUND_COLOR="#cccccc" COLOR="#000000" CREATED="1484755865441" ID="ID_624092415" MODIFIED="1484756843581" POSITION="right" TEXT="&#x5b89;&#x88c5;">
 <node COLOR="#00b439" CREATED="1484755872951" ID="ID_897533669" MODIFIED="1484756050038" TEXT="win">
 <edge COLOR="#00b439" WIDTH="2"/>
@@ -36,7 +36,7 @@
 </node>
 </node>
 </node>
-<node BACKGROUND_COLOR="#cccccc" CREATED="1484895930750" ID="ID_721383220" MODIFIED="1486218196709" POSITION="right" TEXT="&#x521d;&#x59cb;&#x5316; Git &#x4ed3;&#x5e93;">
+<node BACKGROUND_COLOR="#cccccc" CREATED="1484895930750" FOLDED="true" ID="ID_721383220" MODIFIED="1494810318202" POSITION="right" TEXT="&#x521d;&#x59cb;&#x5316; Git &#x4ed3;&#x5e93;">
 <node BACKGROUND_COLOR="#ffffff" CREATED="1484756880585" ID="ID_836549831" MODIFIED="1484896006002" TEXT="&#x672c;&#x5730;&#x521d;&#x59cb;&#x5316;init">
 <node CREATED="1484756897636" ID="ID_1578708108" MODIFIED="1484756960430" TEXT="&#x521d;&#x59cb;&#x5316;&#x4e00;&#x4e2a;&#x76ee;&#x5f55;&#x4e3a;&#x4ed3;&#x5e93;&#xa;&#x76ee;&#x5f55;&#x53ef;&#x662f;&#x7a7a;&#xff0c;&#x4e5f;&#x53ef;&#x4ee5;&#x4e0d;&#x662f;&#x7a7a;&#xa;">
 <node CREATED="1484756931379" HGAP="36" ID="ID_452105287" MODIFIED="1484757072535" TEXT="git init" VSHIFT="2">
@@ -60,7 +60,7 @@
 </node>
 </node>
 </node>
-<node BACKGROUND_COLOR="#cccccc" CREATED="1484840820292" ID="ID_1133085063" MODIFIED="1488802317609" POSITION="right" TEXT="config">
+<node BACKGROUND_COLOR="#cccccc" CREATED="1484840820292" ID="ID_1133085063" MODIFIED="1494915181545" POSITION="right" TEXT="config">
 <node BACKGROUND_COLOR="#ffffff" CREATED="1484840389205" HGAP="22" ID="ID_48905018" MODIFIED="1484896111391" TEXT="config&#x7684;&#x4e09;&#x4e2a;&#x7ea7;&#x522b;" VSHIFT="14">
 <node CREATED="1484840402347" ID="ID_62896301" MODIFIED="1484840596555" TEXT="&#x6bcf;&#x4e2a;&#x9879;&#x76ee;&#x7684;config,&#x5728;&#x6bcf;&#x4e2a;&#x4ed3;&#x5e93;&#x76ee;&#x5f55;&#x4e2d;.git&#x76ee;&#x5f55;&#x91cc;&#xa;.git/config">
 <node CREATED="1484840655641" HGAP="23" ID="ID_481376359" MODIFIED="1484840745889" TEXT="git config xxxx" VSHIFT="2"/>
@@ -78,9 +78,9 @@
 <node CREATED="1484841048995" ID="ID_208284504" MODIFIED="1484841065106" TEXT="&#x914d;&#x7f6e;&#x6587;&#x4ef6;&#x5e38;&#x7528;&#x64cd;&#x4f5c;">
 <node BACKGROUND_COLOR="#ffffff" CREATED="1484841480726" ID="ID_528099743" MODIFIED="1484841532985" TEXT="&#x8bbe;&#x7f6e;&#x67d0;&#x4e2a;&#x503c;">
 <node COLOR="#ff0000" CREATED="1439793725110" ID="ID_920459943" MODIFIED="1484895112220" TEXT="&#x914d;&#x7f6e;git&#x4f7f;&#x7528;&#x7684;&#x6587;&#x672c;&#x7f16;&#x8f91;&#x5668;" VSHIFT="-8">
-<font NAME="Monaco" SIZE="12"/>
+<font NAME="Dialog" SIZE="12"/>
 <node CREATED="1439794173212" HGAP="21" ID="ID_1095012493" MODIFIED="1484841336241" TEXT=" git config --global core.editor &apos;emacs&apos;" VSHIFT="2">
-<font NAME="Monaco" SIZE="12"/>
+<font NAME="Dialog" SIZE="12"/>
 </node>
 </node>
 <node CREATED="1484841537258" ID="ID_492264466" MODIFIED="1484841541534" TEXT="&#x8bbe;&#x7f6e;&#x63d0;&#x4ea4;&#x4fe1;&#x606f;">
@@ -211,7 +211,7 @@
 <node CREATED="1470108462369" ID="ID_1149226042" MODIFIED="1470108544048" TEXT="git rm -r -n --cached &quot;bin/&quot; //-n&#xff1a;&#x52a0;&#x4e0a;&#x8fd9;&#x4e2a;&#x53c2;&#x6570;&#xff0c;&#x6267;&#x884c;&#x547d;&#x4ee4;&#x65f6;&#xff0c;&#x662f;&#x4e0d;&#x4f1a;&#x5220;&#x9664;&#x4efb;&#x4f55;&#x6587;&#x4ef6;&#xff0c;&#x800c;&#x662f;&#x5c55;&#x793a;&#x6b64;&#x547d;&#x4ee4;&#x8981;&#x5220;&#x9664;&#x7684;&#x6587;&#x4ef6;&#x5217;&#x8868;&#x9884;&#x89c8;&#x3002;&#xa;git rm -r --cached  &quot;bin/&quot;  //&#x5c06;bin&#x76ee;&#x5f55;&#x6216;&#x6587;&#x4ef6;&#x4ece;&#x4ed3;&#x5e93;&#x4e2d;&#x5220;&#x9664;&#x4e0d;&#x5728;&#x8ddf;&#x8e2a;&#xff0c;&#x5b9e;&#x9645;&#x6587;&#x4ef6;&#x662f;&#x5b58;&#x5728;&#x78c1;&#x76d8;&#x7684;&#xa;git commit -m&quot; remove bin folder all file out of control&quot;&#xa;git push origin master   "/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ff9999" CREATED="1439866156759" HGAP="54" ID="ID_1892989077" MODIFIED="1486365170826" POSITION="right" TEXT="&#x5206;&#x652f;" VSHIFT="14">
+<node BACKGROUND_COLOR="#ff9999" CREATED="1439866156759" HGAP="54" ID="ID_1892989077" MODIFIED="1494840268801" POSITION="right" TEXT="&#x5206;&#x652f;" VSHIFT="14">
 <node CREATED="1439864222081" HGAP="24" ID="ID_534817246" MODIFIED="1441867790063" TEXT="&#x672c;&#x5730;&#x5206;&#x652f; branch" VSHIFT="11">
 <node CREATED="1439864258861" HGAP="19" ID="ID_912509569" MODIFIED="1441867790063" TEXT="&#x67e5;&#x770b;" VSHIFT="-13">
 <node CREATED="1439864309286" ID="ID_1618047561" MODIFIED="1486314297309" TEXT="&#x67e5;&#x770b;&#x672c;&#x5730;&#x6240;&#x6709;&#x5206;&#x652f;">
@@ -306,7 +306,7 @@
 </node>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ff6666" CREATED="1439885754745" HGAP="34" ID="ID_177358047" MODIFIED="1486306166745" POSITION="right" TEXT="tag &#x6807;&#x7b7e;" VSHIFT="1">
+<node BACKGROUND_COLOR="#ff6666" CREATED="1439885754745" HGAP="34" ID="ID_177358047" MODIFIED="1494911596690" POSITION="right" TEXT="tag &#x6807;&#x7b7e;" VSHIFT="1">
 <node BACKGROUND_COLOR="#cccccc" CREATED="1439885770557" HGAP="39" ID="ID_1219645953" MODIFIED="1486306179196" TEXT="&#x6253;&#x6807;&#x7b7e;&#x662f;&#x5728;&#x5f53;&#x524d;&#x5206;&#x652f;" VSHIFT="6"/>
 <node CREATED="1439889188761" HGAP="31" ID="ID_1059996201" MODIFIED="1441867790070" TEXT="&#x521b;&#x5efa;&#x6807;&#x7b7e;" VSHIFT="-1">
 <node CREATED="1440481932257" ID="ID_1530590725" MODIFIED="1441867790071" TEXT="&#x8f7b;&#x91cf;&#x6807;&#x7b7e;">
