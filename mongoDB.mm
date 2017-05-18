@@ -2,7 +2,7 @@
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1452565371433" ID="ID_843935734" MODIFIED="1490187461583" TEXT="mongoDB&#xa;3.4">
 <font NAME="SansSerif" SIZE="13"/>
-<node COLOR="#ff0000" CREATED="1452573364182" FOLDED="true" HGAP="18" ID="ID_1822221732" MODIFIED="1494904708820" POSITION="left" TEXT="&#x6570;&#x636e;&#x5e93;" VSHIFT="-48">
+<node COLOR="#ff0000" CREATED="1452573364182" FOLDED="true" HGAP="18" ID="ID_1822221732" MODIFIED="1495088674626" POSITION="left" TEXT="&#x6570;&#x636e;&#x5e93;" VSHIFT="-48">
 <node CREATED="1452573473168" ID="ID_1139205852" MODIFIED="1489766002791" TEXT="&#x591a;&#x4e2a;&#x96c6;&#x5408;&#x5728;&#x4e00;&#x8d77;&#x5c31;&#x662f;&#x4e00;&#x4e2a;&#x6570;&#x636e;&#x5e93;"/>
 <node CREATED="1494814472865" ID="ID_740327088" MODIFIED="1494814667403">
 <richcontent TYPE="NODE"><html>
@@ -97,12 +97,42 @@
 </node>
 </node>
 </node>
-<node COLOR="#ff0000" CREATED="1452573350220" ID="ID_1133998341" MODIFIED="1494922855327" POSITION="left" TEXT="&#x96c6;&#x5408;">
-<node CREATED="1453699939313" ID="ID_1408839150" MODIFIED="1494814803117" TEXT="&#x57fa;&#x672c;&#x6982;&#x5ff5;">
-<node CREATED="1452576309318" ID="ID_554799123" MODIFIED="1489766002793" TEXT="&#x5728;&#x63d2;&#x5165;&#x6587;&#x6863;&#x65f6;&#xff0c;&#x5982;&#x679c;&#x96c6;&#x5408;&#x4e0d;&#x5b58;&#x5728;&#xff0c;&#x96c6;&#x5408;&#x4f1a;&#x81ea;&#x52a8;&#x521b;&#x5efa;"/>
-<node CREATED="1452573451396" ID="ID_457385745" MODIFIED="1489766002793" TEXT="&#x591a;&#x4e2a;&#x6587;&#x6863;&#x5728;&#x4e00;&#x8d77;&#x53eb;&#x96c6;&#x5408;&#xff0c;&#x7c7b;&#x4f3c;table"/>
+<node COLOR="#ff0000" CREATED="1452573350220" FOLDED="true" ID="ID_1133998341" MODIFIED="1495088759951" POSITION="left" TEXT="&#x96c6;&#x5408;">
+<node CREATED="1453699939313" ID="ID_1408839150" MODIFIED="1495088656017" TEXT="&#x57fa;&#x672c;&#x6982;&#x5ff5;">
+<font NAME="SansSerif" SIZE="10"/>
+<node CREATED="1452576309318" ID="ID_554799123" MODIFIED="1495088660074" TEXT="&#x5728;&#x63d2;&#x5165;&#x6587;&#x6863;&#x65f6;&#xff0c;&#x5982;&#x679c;&#x96c6;&#x5408;&#x4e0d;&#x5b58;&#x5728;&#xff0c;&#x96c6;&#x5408;&#x4f1a;&#x81ea;&#x52a8;&#x521b;&#x5efa;">
+<font NAME="SansSerif" SIZE="10"/>
 </node>
-<node CREATED="1494814810659" HGAP="21" ID="ID_657635755" MODIFIED="1494815353499" TEXT="&#x67e5;&#x770b;&#x4e00;&#x4e2a;&#x96c6;&#x5408;&#x63d0;&#x4f9b;&#x54ea;&#x4e9b;&#x65b9;&#x6cd5;" VSHIFT="19">
+<node CREATED="1452573451396" ID="ID_457385745" MODIFIED="1495088661978" TEXT="&#x591a;&#x4e2a;&#x6587;&#x6863;&#x5728;&#x4e00;&#x8d77;&#x53eb;&#x96c6;&#x5408;&#xff0c;&#x7c7b;&#x4f3c;table">
+<font NAME="SansSerif" SIZE="10"/>
+</node>
+</node>
+<node CREATED="1495088681540" ID="ID_1750767727" MODIFIED="1495088691580" TEXT="&#x4e00;&#x4e2a;&#x6570;&#x636e;&#x5e93;&#x6709;&#x54ea;&#x4e9b;&#x96c6;&#x5408;">
+<node CREATED="1495088695172" ID="ID_1919086316" MODIFIED="1495088754568">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="2">&gt; use cnyb </font>
+    </p>
+    <p>
+      <font size="2">switched to db cnyb </font>
+    </p>
+    <p>
+      <font size="2">&gt; show collections </font>
+    </p>
+    <p>
+      <font size="2">fivedata</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1494814810659" HGAP="21" ID="ID_657635755" MODIFIED="1495088626009" TEXT="&#x67e5;&#x770b;&#x4e00;&#x4e2a;&#x96c6;&#x5408;&#x63d0;&#x4f9b;&#x54ea;&#x4e9b;&#x65b9;&#x6cd5;" VSHIFT="19">
+<font NAME="SansSerif" SIZE="10"/>
 <node CREATED="1494815344668" ID="ID_1306380488" MODIFIED="1494815525244">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -166,7 +196,7 @@
 </node>
 </node>
 </node>
-<node BACKGROUND_COLOR="#cccccc" COLOR="#ff6600" CREATED="1453699776984" FOLDED="true" HGAP="19" ID="ID_1348598608" MODIFIED="1494922853892" POSITION="left" STYLE="fork" TEXT="&#x6587;&#x6863;" VSHIFT="45">
+<node BACKGROUND_COLOR="#cccccc" COLOR="#ff6600" CREATED="1453699776984" FOLDED="true" HGAP="19" ID="ID_1348598608" MODIFIED="1495002139431" POSITION="left" STYLE="fork" TEXT="&#x6587;&#x6863;" VSHIFT="45">
 <node CREATED="1453700136631" ID="ID_927246555" MODIFIED="1489766002794" TEXT="&#x5b9a;&#x4e49;" VSHIFT="-10">
 <node CREATED="1453700146334" ID="ID_1711795603" MODIFIED="1489766002794" TEXT="&#x7c7b;&#x4f3c;&#x4e8e;&#x4e00;&#x4e2a;&#x5b57;&#x5178;&#x5bf9;&#x8c61;">
 <node CREATED="1453700290578" ID="ID_1999766448" MODIFIED="1489766002794" TEXT="{&#x201c;title&#x201d;:&quot;hello word&quot;,&quot;count&quot;:1}"/>
@@ -228,24 +258,127 @@
 </node>
 </node>
 </node>
-<node CREATED="1494904723293" ID="ID_172903553" MODIFIED="1494904726694" POSITION="left" TEXT="&#x7d22;&#x5f15;">
-<node CREATED="1494922704128" ID="ID_459659855" MODIFIED="1494922713798" TEXT="&#x5355;&#x5efa;&#x7d22;&#x5f15;">
-<node CREATED="1494922749687" ID="ID_1532420425" MODIFIED="1494922753335" TEXT="&#x83b7;&#x53d6;"/>
-<node CREATED="1494922723732" ID="ID_231068579" MODIFIED="1494922725811" TEXT="&#x521b;&#x5efa;">
-<node CREATED="1494923029214" ID="ID_1929695913" MODIFIED="1494923049684">
+<node CREATED="1494904723293" ID="ID_172903553" MODIFIED="1495087076854" POSITION="left">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      <font size="2" face="&#x5b8b;&#x4f53;" color="rgb(51, 51, 51)">db.test.ensureIndex( </font>
+      &#32034;&#24341;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1494922704128" ID="ID_459659855" MODIFIED="1495087711833">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="2">&#21333;&#38190;&#32034;&#24341; </font>
     </p>
     <p>
-      <font size="2" face="&#x5b8b;&#x4f53;" color="rgb(51, 51, 51)">&#160;&#160;&#160;&#160;{name:1},{name:'index_name'} </font>
+      Single Field
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1494922749687" ID="ID_1532420425" MODIFIED="1495086314155">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#33719;&#21462;&#38598;&#21512;&#23384;&#22312;&#30340;&#32034;&#24341;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1495090693862" ID="ID_1055053263" MODIFIED="1495090707771" TEXT="&gt;db.collection.getIndexes()"/>
+<node CREATED="1495090719005" ID="ID_1178270258" MODIFIED="1495090736236" TEXT="&gt;db.collection.getIndexKeys()"/>
+</node>
+<node CREATED="1494922723732" ID="ID_231068579" MODIFIED="1494922725811" TEXT="&#x521b;&#x5efa;">
+<node CREATED="1495086320119" ID="ID_170142167" MODIFIED="1495087781387">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#35821;&#27861;
+    </p>
+  </body>
+</html>
+</richcontent>
+<font NAME="SansSerif" SIZE="10"/>
+<node CREATED="1495087225572" ID="ID_717478177" MODIFIED="1495088228712">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="2">db.collection.createIndex( &lt;key and index type specification&gt;, &lt;options&gt; ) </font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1495087761605" ID="ID_1700891570" MODIFIED="1495088256092" TEXT="&#x9009;&#x9879;&#x8bf4;&#x660e;">
+<font NAME="SansSerif" SIZE="10"/>
+<node CREATED="1495087920316" ID="ID_839222652" MODIFIED="1495088259797">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      key
     </p>
     <p>
-      <font size="2" face="&#x5b8b;&#x4f53;" color="rgb(51, 51, 51)">)</font>
+      &#25991;&#26723;&#31867;&#22411; &#22914;&#65306;{&quot;age&quot;:1}
+    </p>
+  </body>
+</html>
+</richcontent>
+<font NAME="SansSerif" SIZE="10"/>
+</node>
+<node CREATED="1495088086283" ID="ID_363325154" MODIFIED="1495088300420">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      options
+    </p>
+    <p>
+      &#25991;&#26723;&#31867;&#22411; &#22914;&#65306;{&quot;name&quot;: &quot;xxxx&quot;}
+    </p>
+  </body>
+</html>
+</richcontent>
+<font NAME="SansSerif" SIZE="10"/>
+</node>
+</node>
+</node>
+<node CREATED="1494923029214" ID="ID_1929695913" MODIFIED="1495000158533">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="rgb(51, 51, 51)" size="2" face="&#x5b8b;&#x4f53;">db.test</font><font size="2">.</font><font size="2" color="rgb(51, 51, 51)" face="Source Code Pro, monospace">createIndex</font><font size="2" color="rgb(51, 51, 51)" face="&#x5b8b;&#x4f53;">( </font>
+    </p>
+    <p>
+      <font size="2" color="rgb(51, 51, 51)" face="&#x5b8b;&#x4f53;">&#160;&#160;&#160;&#160;{name:1},{name:'index_name'} </font>
+    </p>
+    <p>
+      <font size="2" color="rgb(51, 51, 51)" face="&#x5b8b;&#x4f53;">)</font>
     </p>
   </body>
 </html>
@@ -253,57 +386,228 @@
 </node>
 </node>
 <node CREATED="1494922728444" ID="ID_695461750" MODIFIED="1494922730342" TEXT="&#x5220;&#x9664;"/>
-</node>
-<node CREATED="1494922716501" ID="ID_1288589703" MODIFIED="1494922720984" TEXT="&#x590d;&#x5408;&#x7d22;&#x5f15;">
-<node CREATED="1494922734563" ID="ID_805601435" MODIFIED="1494922736737" TEXT="&#x521b;&#x5efa;">
-<node CREATED="1494922930468" ID="ID_1187476123" MODIFIED="1494923016461">
+<node CREATED="1495089621836" ID="ID_1391370949" MODIFIED="1495089626729" TEXT="&#x6ce8;&#x610f;">
+<node CREATED="1495089629692" ID="ID_737921450" MODIFIED="1495090307493">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      <font size="2">db.test.ensureIndex( </font>
+      &#32473;&#20869;&#23884;&#25991;&#26723;&#21015;&#21019;&#24314;&#21333;&#21015;&#32034;&#24341;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1495089659278" ID="ID_1761786359" MODIFIED="1495089661126" TEXT="&gt; db.persons.createIndex({&quot;score.c&quot;:1})"/>
+</node>
+<node CREATED="1495090310438" ID="ID_1536188340" MODIFIED="1495090312941" TEXT="&#x57fa;&#x4e8e;&#x5185;&#x5d4c;&#x6587;&#x6863;&#x521b;&#x5efa;&#x7d22;&#x5f15;">
+<node CREATED="1495090322827" ID="ID_464721390" MODIFIED="1495090324514" TEXT="&gt; db.persons.createIndex({score:1})"/>
+</node>
+</node>
+</node>
+<node CREATED="1494922716501" ID="ID_1288589703" MODIFIED="1495091315782" VSHIFT="8">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#28151;&#21512;&#32034;&#24341;&#65292;&#22797;&#21512;&#32034;&#24341;
     </p>
     <p>
-      <font size="2">&#160;&#160;&#160;&#160;{name:1,age:1,sex:1}, {name:'index_nas'} </font>
+      compound Index
     </p>
+  </body>
+</html>
+</richcontent>
+<font NAME="SansSerif" SIZE="10"/>
+<node CREATED="1494922734563" ID="ID_805601435" MODIFIED="1494922736737" TEXT="&#x521b;&#x5efa;">
+<node CREATED="1494922930468" ID="ID_1187476123" MODIFIED="1495091485427">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
     <p>
-      <font size="2">) </font>
-    </p>
-    <p>
-      <font size="2">name age sex shi &#25991;&#26723;&#30340;key&#20540; </font>
-    </p>
-    <p>
-      <font size="2">&#21518;&#38754;&#30340;name&#29992;&#26469;&#23450;&#20041;&#32034;&#24341;&#21517;&#23383;</font>
+      <font color="rgb(51, 51, 51)" size="2" face="Source Code Pro, monospace">db.collection.createIndex( { &lt;field1&gt;: &lt;type&gt;, &lt;field2&gt;: &lt;type2&gt;, </font><font size="2" color="rgb(0, 0, 136)" face="Source Code Pro, monospace">...</font><font size="2" color="rgb(51, 51, 51)" face="Source Code Pro, monospace">&#160; } )</font><font size="2">&#160; </font>
     </p>
   </body>
 </html>
 </richcontent>
 </node>
+<node CREATED="1495091466770" ID="ID_1338089009" MODIFIED="1495091500554" TEXT="db.test.createIndex(  &#xa0;&#xa0;&#xa0;&#xa0;{name:1,age:1,sex:1}, {name:&apos;index_nas&apos;}  ) &#xa; name age sex &#x662f; &#x6587;&#x6863;&#x7684;key&#x503c;  &#x540e;&#x9762;&#x7684;name&#x7528;&#x6765;&#x5b9a;&#x4e49;&#x7d22;&#x5f15;&#x540d;&#x5b57;"/>
 </node>
 <node CREATED="1494922739025" ID="ID_742287018" MODIFIED="1494922741253" TEXT="&#x5220;&#x9664;"/>
-</node>
-<node CREATED="1494922768333" ID="ID_1914641559" MODIFIED="1494922779884" TEXT="&#x83b7;&#x53d6;&#x96c6;&#x5408;&#x5b58;&#x5728;&#x7684;&#x7d22;&#x5f15;">
-<node CREATED="1494922828398" ID="ID_130433662" MODIFIED="1494922840154" TEXT="db.getCollection(&apos;colname&apos;).getIndexes()"/>
-</node>
-<node COLOR="#ff0000" CREATED="1494923577919" HGAP="23" ID="ID_920512163" MODIFIED="1494923599769" TEXT="&#x7d22;&#x5f15;&#x6ce8;&#x610f;&#x4e8b;&#x9879;" VSHIFT="13">
-<node CREATED="1494923602071" ID="ID_1671917789" MODIFIED="1494923733939">
+<node CREATED="1495091319627" ID="ID_1153323462" MODIFIED="1495091323858" TEXT="&#x6ce8;&#x610f;">
+<node CREATED="1495091692707" ID="ID_369244838" MODIFIED="1495091701050" TEXT="&#x590d;&#x5408;&#x7d22;&#x5f15;&#x652f;&#x6301;&#x5339;&#x914d;&#x591a;&#x4e2a;&#x952e;&#x7684;&#x67e5;&#x8be2;"/>
+<node CREATED="1495091653025" ID="ID_119181925" MODIFIED="1495091673139">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      <font size="3">&#23558;&#31561;&#20540;&#32034;&#24341;&#25918;&#22312;&#26368;&#21069;&#38754;&#160;&#160;,&#31561;&#20540;&#19968;&#33324;&#26159;find&#30340;&#26465;&#20214; </font>
-    </p>
-    <p>
-      <font size="3">&#23613;&#37327;&#23558;&#25490;&#24207;&#23383;&#27573;&#25918;&#22312;&#33539;&#22260;&#23383;&#27573;&#30340;&#21069;&#38754; &#25490;&#24207;&#23383;&#27573;&#26159;sort&#30340;&#26465;&#20214;</font>
+      &#22797;&#21512;&#32034;&#24341;&#38190;&#30340;&#39034;&#24207;&#38750;&#24120;&#37325;&#35201;&#65292;&#36825;&#23558;&#20915;&#23450;&#35813;&#32034;&#24341;&#22312;&#26597;&#35810;&#36807;&#31243;&#20013;&#33021;&#21542;&#34987;&#20351;&#29992;&#21040;
     </p>
   </body>
 </html>
 </richcontent>
 </node>
+<node CREATED="1495091663737" ID="ID_1530775160" MODIFIED="1495091665575" TEXT="&#x4efb;&#x610f;&#x590d;&#x5408;&#x7d22;&#x5f15;&#x5b57;&#x6bb5;&#x4e0d;&#x80fd;&#x8d85;&#x8fc7;31&#x4e2a;"/>
+<node COLOR="#ff0000" CREATED="1495098491116" ID="ID_1922073982" MODIFIED="1495098723466" TEXT="&#x6df7;&#x5408;&#x7d22;&#x5f15;&#x7684;&#x6392;&#x5e8f;&#x5f88;&#x91cd;&#x8981;">
+<node CREATED="1495098546592" ID="ID_1779397386" MODIFIED="1495098716236">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="2">&#20551;&#35774;&#23384;&#22312;&#22914;&#19979;&#32034;&#24341;&#65306;{&quot;name&quot;:1, age:1} </font>
+    </p>
+    <p>
+      <font size="2">&#25490;&#24207;&#20351;&#29992;&#21040;&#32034;&#24341;&#30340;&#24773;&#24418; </font>
+    </p>
+    <p>
+      <font size="2">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;db.persons.find().sort({name:1,age:1}) </font>
+    </p>
+    <p>
+      <font size="2">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;db.persons.find().sort({name:-1,age:-1}) </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="2">&#25490;&#24207;&#26410;&#20351;&#29992;&#21040;&#32034;&#24341;&#30340;&#24773;&#24418; </font>
+    </p>
+    <p>
+      <font size="2">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;db.persons.find().sort({name:1,age:-1}) </font>
+    </p>
+    <p>
+      <font size="2">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;db.persons.find().sort({name:-1,age:1}) </font>
+    </p>
+    <p>
+      <font size="2">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;db.persons.find().sort({age:1,name:1}) </font>
+    </p>
+    <p>
+      <font size="2">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;db.persons.find().sort({age:-1,name:1}) </font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node COLOR="#ff0000" CREATED="1495097346260" ID="ID_946951583" MODIFIED="1495097374191" TEXT="&#x7d22;&#x5f15;&#x524d;&#x7f00;">
+<node CREATED="1495097365350" ID="ID_1411081798" MODIFIED="1495097367071" TEXT="&#x7d22;&#x5f15;&#x524d;&#x7f00;&#x6307;&#x7684;&#x662f;&#x590d;&#x5408;&#x7d22;&#x5f15;&#x7684;&#x5b50;&#x96c6;"/>
+<node CREATED="1495097395399" ID="ID_446411812" MODIFIED="1495097402022" TEXT="&#x793a;&#x4f8b;">
+<node CREATED="1495097405199" ID="ID_244639355" MODIFIED="1495098246574">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="2">&#20551;&#22914;&#23384;&#22312;&#22914;&#19979;&#28151;&#21512;&#32034;&#24341;&#160;&#160;&#160;&#160;&#160;&#160;{ &quot;item&quot;: 1, &quot;location&quot;: 1, &quot;stock&quot;: 1 } </font>
+    </p>
+    <p>
+      &#21017;&#23384;&#22312;&#22914;&#19979;&#32034;&#24341;&#21069;&#32512;&#65306;
+    </p>
+    <p>
+      <font size="2">{&quot;item&quot;:1} </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="2">{&quot;item&quot;:1, &quot;location&quot;:1} </font>
+    </p>
+    <p>
+      <font size="2">{&quot;location&quot;:1, &quot;item&quot;:1} </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="2">{&quot;item&quot;:1, &quot;stock&quot;:1}</font>
+    </p>
+    <p>
+      <font size="2">{&quot;stock&quot;:1, &quot;item&quot;:1}</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1495087333885" ID="ID_1365506305" MODIFIED="1495087537129">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#22810;&#38190;&#32034;&#24341;
+    </p>
+    <p>
+      Multikey Index
+    </p>
+  </body>
+</html>
+</richcontent>
+<font NAME="SansSerif" SIZE="10"/>
+</node>
+<node CREATED="1495087408041" ID="ID_68372569" MODIFIED="1495087539873">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#22320;&#29702;&#31354;&#38388;&#32034;&#24341;
+    </p>
+    <p>
+      Geospatial Index
+    </p>
+  </body>
+</html>
+</richcontent>
+<font NAME="SansSerif" SIZE="10"/>
+</node>
+<node CREATED="1495087431392" ID="ID_420421849" MODIFIED="1495087542601">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#25991;&#26412;&#32034;&#24341;
+    </p>
+    <p>
+      Text&#160;&#160;Indexes
+    </p>
+  </body>
+</html>
+</richcontent>
+<font NAME="SansSerif" SIZE="10"/>
+</node>
+<node CREATED="1495087472030" ID="ID_209023519" MODIFIED="1495087550960">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#21704;&#24076;&#32034;&#24341;
+    </p>
+    <p>
+      Hashed Indexes
+    </p>
+  </body>
+</html>
+</richcontent>
+<font NAME="SansSerif" SIZE="10"/>
 </node>
 </node>
 <node CREATED="1483547933488" ID="ID_38060450" MODIFIED="1489766002804" POSITION="right" TEXT="&#x5b89;&#x88c5;">
