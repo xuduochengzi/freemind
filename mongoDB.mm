@@ -200,8 +200,8 @@
 </node>
 <node CREATED="1453700043394" ID="ID_625238006" MODIFIED="1495510879611" STYLE="fork" TEXT="&#x5220;">
 <font NAME="SansSerif" SIZE="12"/>
-<node CREATED="1453701823066" ID="ID_245636555" MODIFIED="1495510879611" STYLE="fork" TEXT="db.cellection.drop()">
-<font NAME="SansSerif" SIZE="12"/>
+<node CREATED="1453701823066" ID="ID_245636555" MODIFIED="1495555255922" STYLE="fork" TEXT="db.cellection.drop()">
+<font NAME="Consolas" SIZE="10"/>
 </node>
 </node>
 <node CREATED="1495507221659" ID="ID_1114317620" MODIFIED="1495510879611" STYLE="fork" TEXT="&#x6539;">
@@ -209,8 +209,8 @@
 </node>
 <node CREATED="1453700055262" ID="ID_383838323" MODIFIED="1495510879611" STYLE="fork" TEXT="&#x67e5;">
 <font NAME="SansSerif" SIZE="12"/>
-<node CREATED="1484660237593" ID="ID_913997223" MODIFIED="1495510879611" STYLE="fork" TEXT="show collections;">
-<font NAME="SansSerif" SIZE="12"/>
+<node CREATED="1484660237593" ID="ID_913997223" MODIFIED="1495555261546" STYLE="fork" TEXT="show collections;">
+<font NAME="Consolas" SIZE="10"/>
 </node>
 </node>
 </node>
@@ -255,8 +255,7 @@
       &#21024;&#38500;&#21305;&#37197;&#25152;&#26377;&#25991;&#26723;&#25110;&#19968;&#20010;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1453701856305" ID="ID_339931050" MODIFIED="1495517812972" STYLE="fork">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -277,7 +276,7 @@
 </node>
 <node CREATED="1453700206629" HGAP="25" ID="ID_869989718" MODIFIED="1495510879612" STYLE="fork" TEXT="&#x6539;" VSHIFT="30">
 <font NAME="SansSerif" SIZE="12"/>
-<node CREATED="1453701739442" ID="ID_809239136" MODIFIED="1495510879612" STYLE="fork">
+<node CREATED="1453701739442" ID="ID_809239136" MODIFIED="1495555270658" STYLE="fork">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -287,9 +286,8 @@
       db.collection.update()
     </p>
   </body>
-</html>
-</richcontent>
-<font NAME="SansSerif" SIZE="12"/>
+</html></richcontent>
+<font NAME="Consolas" SIZE="10"/>
 <node CREATED="1453710690893" ID="ID_1164142728" MODIFIED="1495510879613" STYLE="fork" TEXT="&#x53ea;&#x66f4;&#x65b0;&#x4e00;&#x4e2a;&#xff0c;&#x5373;&#x4f7f;&#x5339;&#x914d;&#x591a;&#x4e2a;">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1484663227128" ID="ID_1761752460" MODIFIED="1495517915403" STYLE="fork">
@@ -302,8 +300,7 @@
       db.col.update({'title':'mongodb'}, {$set:{'title':'MongoDB'}})
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="Consolas" SIZE="10"/>
 </node>
 </node>
@@ -317,8 +314,7 @@
       &#26356;&#26032;&#21305;&#37197;&#21040;&#30340;&#22810;&#20010;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1484663227128" ID="ID_218728579" MODIFIED="1495525081615" STYLE="fork">
 <richcontent TYPE="NODE"><html>
@@ -342,15 +338,14 @@
       <font size="2">)</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="Consolas" SIZE="12"/>
 </node>
 </node>
 </node>
-<node CREATED="1495510494212" ID="ID_1354835937" MODIFIED="1495510879614" STYLE="fork" TEXT="&#x65e0;&#x66f4;&#x65b0;,&#x5c31;&#x63d2;&#x5165;">
-<font NAME="SansSerif" SIZE="12"/>
-<node CREATED="1495510525293" ID="ID_1573614398" MODIFIED="1495510879614" STYLE="fork">
+<node COLOR="#ff0000" CREATED="1495510494212" ID="ID_1354835937" MODIFIED="1495547275588" TEXT="&#x65e0;&#x66f4;&#x65b0;,&#x5c31;&#x63d2;&#x5165;">
+<font NAME="SansSerif" SIZE="10"/>
+<node CREATED="1495510525293" ID="ID_1573614398" MODIFIED="1495547271968" STYLE="fork">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -372,12 +367,11 @@
       <font size="2" face="Consolas">) </font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1495509995206" ID="ID_198742292" MODIFIED="1495510879616" STYLE="fork">
+<node CREATED="1495509995206" ID="ID_198742292" MODIFIED="1495547424828" STYLE="fork">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -393,18 +387,14 @@
       <font size="2">&#25991;&#26723;&#25972;&#20010;&#23383;&#27573;&#37117;&#34987;&#26032;&#30340;&#25991;&#26723;&#20195;&#26367;)</font>
     </p>
   </body>
-</html>
-</richcontent>
-<font NAME="SansSerif" SIZE="12"/>
-<node CREATED="1495510206647" ID="ID_407621546" MODIFIED="1495510879617" STYLE="fork">
+</html></richcontent>
+<font NAME="SansSerif" SIZE="10"/>
+<node CREATED="1495510206647" ID="ID_407621546" MODIFIED="1495547248268" STYLE="fork">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
-    <p>
-      <font size="2">&#26367;&#25442;&#25991;&#26723;&#30452;&#25509;&#65292;&#20256;&#36827;&#19968;&#20010;&#26032;&#30340;&#25991;&#26723;&#21363;&#21487; </font>
-    </p>
     <p>
       <font size="2">db.restaurants.update( </font>
     </p>
@@ -412,7 +402,7 @@
       <font size="2">&#160;&#160;&#160;{ &quot;restaurant_id&quot; : &quot;41704620&quot; }, </font>
     </p>
     <p>
-      <font size="2">&#160;&#160;&#160;{&#160;&quot;name&quot; : &quot;Vella 2&quot;,&#160; &quot;address&quot; : { </font>
+      <font size="2">&#160;&#160;&#160;{&#160;&quot;name&quot; : &quot;Vella 2&quot;,&#160;&#160;&quot;address&quot; : { </font>
     </p>
     <p>
       <font size="2">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&quot;coord&quot; : [ -73.9557413, 40.7720266 ], </font>
@@ -429,20 +419,20 @@
   </body>
 </html>
 </richcontent>
-<font NAME="SansSerif" SIZE="12"/>
+<font NAME="Consolas" SIZE="10"/>
 </node>
 </node>
 </node>
 <node CREATED="1453700212497" ID="ID_866858982" MODIFIED="1495510879618" STYLE="fork" TEXT="&#x67e5;" VSHIFT="39">
 <font NAME="SansSerif" SIZE="12"/>
-<node CREATED="1453701635112" ID="ID_996574465" MODIFIED="1495510879618" STYLE="fork" TEXT="db.blog.find({ })">
-<font NAME="SansSerif" SIZE="12"/>
+<node CREATED="1453701635112" ID="ID_996574465" MODIFIED="1495555294970" STYLE="fork" TEXT="db.blog.find({ })">
+<font NAME="Consolas" SIZE="10"/>
 </node>
-<node CREATED="1494919758335" ID="ID_1223396006" MODIFIED="1495510879618" STYLE="fork" TEXT="db.foo.find({&quot;_id&quot; : ObjectId(&quot;544a3dc0d4646f0c8c904962&quot;)})">
-<font NAME="SansSerif" SIZE="12"/>
+<node CREATED="1494919758335" ID="ID_1223396006" MODIFIED="1495555289122" STYLE="fork" TEXT="db.foo.find({&quot;_id&quot; : ObjectId(&quot;544a3dc0d4646f0c8c904962&quot;)})">
+<font NAME="Consolas" SIZE="10"/>
 </node>
-<node CREATED="1453701657278" ID="ID_1255848728" MODIFIED="1495510879618" STYLE="fork" TEXT="db.blog.findone({ })">
-<font NAME="SansSerif" SIZE="12"/>
+<node CREATED="1453701657278" ID="ID_1255848728" MODIFIED="1495555300506" STYLE="fork" TEXT="db.blog.findone({ })">
+<font NAME="Consolas" SIZE="10"/>
 </node>
 <node CREATED="1495508476011" ID="ID_1046432378" MODIFIED="1495510987099" STYLE="fork" TEXT="&#x6216;&#x67e5;&#x8be2;">
 <font NAME="SansSerif" SIZE="12"/>
@@ -462,17 +452,16 @@
       <font size="2">)</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
 <node CREATED="1495507516266" ID="ID_1143271690" MODIFIED="1495510879619" STYLE="fork" TEXT="&#x53bb;&#x91cd;">
 <font NAME="SansSerif" SIZE="12"/>
-<node CREATED="1495507523673" ID="ID_773028411" MODIFIED="1495510879619" STYLE="fork" TEXT="db.foo.distinct(&apos;field&apos;)">
-<font NAME="SansSerif" SIZE="12"/>
+<node CREATED="1495507523673" ID="ID_773028411" MODIFIED="1495555314786" STYLE="fork" TEXT="db.foo.distinct(&apos;field&apos;)">
+<font NAME="Consolas" SIZE="10"/>
 </node>
-<node CREATED="1495507557312" ID="ID_1830849246" MODIFIED="1495510879619" STYLE="fork">
+<node CREATED="1495507557312" ID="ID_1830849246" MODIFIED="1495555278978" STYLE="fork">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -485,17 +474,16 @@
       db.foo.distinct(&quot;city&quot;, {&quot;name&quot;:xxx})
     </p>
   </body>
-</html>
-</richcontent>
-<font NAME="SansSerif" SIZE="12"/>
+</html></richcontent>
+<font NAME="Consolas" SIZE="10"/>
 </node>
 </node>
 <node CREATED="1484649354666" ID="ID_1588949048" MODIFIED="1495510879620" STYLE="fork" TEXT="&#x805a;&#x5408;">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1484649360455" ID="ID_686902462" MODIFIED="1495510879620" STYLE="fork" TEXT="&#x591a;&#x4e2a;&#x5206;&#x7ec4;&#x6761;&#x4ef6;">
 <font NAME="SansSerif" SIZE="12"/>
-<node CREATED="1484649410285" ID="ID_1887845188" MODIFIED="1495510879620" STYLE="fork" TEXT="max_city_info = cls.db.macstat.aggregate([   &#xa; {&quot;$group&quot;: {&quot;_id&quot;: {&quot;province_name&quot;: &quot;$province_name&quot;, &quot;package&quot;: &quot;$package&quot;},&#xa;                 &quot;count&quot;: {&quot;$sum&quot;: 1}&#xa;                  }&#xa;}, &#xa;{&quot;$sort&quot;: {&quot;count&quot;: -1}}, &#xa;{&quot;$limit&quot;: num} ] &#xa; )">
-<font NAME="SansSerif" SIZE="12"/>
+<node CREATED="1484649410285" ID="ID_1887845188" MODIFIED="1495547435596" STYLE="fork" TEXT="max_city_info = cls.db.macstat.aggregate([   &#xa; {&quot;$group&quot;: {&quot;_id&quot;: {&quot;province_name&quot;: &quot;$province_name&quot;, &quot;package&quot;: &quot;$package&quot;},&#xa;                 &quot;count&quot;: {&quot;$sum&quot;: 1}&#xa;                  }&#xa;}, &#xa;{&quot;$sort&quot;: {&quot;count&quot;: -1}}, &#xa;{&quot;$limit&quot;: num} ] &#xa; )">
+<font NAME="Consolas" SIZE="10"/>
 </node>
 </node>
 </node>
