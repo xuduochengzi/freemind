@@ -255,8 +255,7 @@
       ])
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="Consolas" SIZE="10"/>
 </node>
 <node CREATED="1495615107164" ID="ID_977428751" MODIFIED="1495615143956" TEXT="db.collection.bulkWrite()">
@@ -461,7 +460,11 @@
 </node>
 <node CREATED="1453700212497" ID="ID_866858982" MODIFIED="1495510879618" STYLE="fork" TEXT="&#x67e5;" VSHIFT="39">
 <font NAME="SansSerif" SIZE="12"/>
-<node CREATED="1495617541186" ID="ID_584048292" MODIFIED="1495617547777" TEXT="&#x57fa;&#x672c;&#x8bed;&#x6cd5;"/>
+<node CREATED="1495617541186" ID="ID_584048292" MODIFIED="1495617547777" TEXT="&#x57fa;&#x672c;&#x8bed;&#x6cd5;">
+<node CREATED="1495637691274" ID="ID_76418758" MODIFIED="1495637702282" TEXT="db.foo.find( { status: &quot;D&quot; } )">
+<font NAME="Consolas" SIZE="10"/>
+</node>
+</node>
 <node CREATED="1495617552513" ID="ID_314746985" MODIFIED="1495617643293">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -472,15 +475,14 @@
       &#24120;&#29992;&#26597;&#25214;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1453701635112" ID="ID_996574465" MODIFIED="1495555294970" STYLE="fork" TEXT="db.blog.find({ })">
 <font NAME="Consolas" SIZE="10"/>
 </node>
 <node CREATED="1495617217468" ID="ID_624152875" MODIFIED="1495617237211" TEXT="db.blog.findOne()">
 <font NAME="Consolas" SIZE="10"/>
 </node>
-<node CREATED="1494919758335" ID="ID_1223396006" MODIFIED="1495616466745" STYLE="fork">
+<node CREATED="1494919758335" ID="ID_1223396006" MODIFIED="1495637686334" STYLE="fork">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -489,11 +491,9 @@
     <p>
       db.foo.find({&quot;_id&quot; : ObjectId(&quot;544a3dc0d4646f0c8c904962&quot;)})
     </p>
-    <p>
-      db.foo.find( { status: &quot;D&quot; } )
-    </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <font NAME="Consolas" SIZE="10"/>
 </node>
 <node CREATED="1495508476011" ID="ID_1046432378" MODIFIED="1495617106931" STYLE="fork">
@@ -588,12 +588,53 @@
       &#20869;&#23884;&#25991;&#26723;&#23436;&#20840;&#21305;&#37197;&#65292;&#23383;&#27573;&#39034;&#24207;&#20063;&#35201;&#21644;&#20869;&#23884;&#25991;&#26723;&#19968;&#33268;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="&#x4eff;&#x5b8b;" SIZE="12"/>
 </node>
 <node CREATED="1495618131359" ID="ID_42731106" MODIFIED="1495618148455" TEXT="db.inventory.find( { &quot;size.uom&quot;: &quot;in&quot; } )">
 <font NAME="&#x4eff;&#x5b8b;" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1495638331013" ID="ID_585616096" MODIFIED="1495638337669" TEXT="&#x6570;&#x7ec4;&#x67e5;&#x627e;">
+<node CREATED="1495638463125" ID="ID_124329196" MODIFIED="1495638475065" TEXT="&#x65e0;&#x5d4c;&#x5957;&#x6570;&#x7ec4;">
+<node CREATED="1495638479356" ID="ID_1038070278" MODIFIED="1495639296865">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      db.inventory.find( { tags: [&quot;red&quot;, &quot;blank&quot;] } )
+    </p>
+    <p>
+      &#36825;&#20010;&#19981;&#29992;&#20851;&#24515;&#39034;&#24207;&#65292;&#26356;&#28789;&#27963;
+    </p>
+    <p>
+      db.inventory.find( { tags: { $all: [&quot;red&quot;, &quot;blank&quot;] } } )
+    </p>
+  </body>
+</html>
+</richcontent>
+<font NAME="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;" SIZE="10"/>
+</node>
+<node CREATED="1495639314641" ID="ID_881040886" MODIFIED="1495639326679" TEXT="&#x6761;&#x4ef6;&#x67e5;&#x8be2;">
+<node CREATED="1495639328773" ID="ID_864945906" MODIFIED="1495639330942" TEXT="db.inventory.find( { tags: &quot;red&quot; } )"/>
+<node CREATED="1495639345350" ID="ID_989567987" MODIFIED="1495639401665">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      db.inventory.find( { dim_cm: { $gt: 15, $lt: 20 } } )
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1495640060911" ID="ID_1369715732" MODIFIED="1495640063189" TEXT="db.inventory.find( { dim_cm: { $elemMatch: { $gt: 22, $lt: 30 } } } )"/>
+<node CREATED="1495641569666" ID="ID_411273065" MODIFIED="1495641578669" TEXT="db.inventory.find( { &quot;dim_cm.1&quot;: { $gt: 25 } } )"/>
+</node>
 </node>
 </node>
 </node>
