@@ -372,8 +372,36 @@
 <node CREATED="1493867212120" ID="ID_815160150" MODIFIED="1493867230920" TEXT="docker pull&#xa0;&#xa0;name:tag"/>
 </node>
 </node>
-<node CREATED="1493867130398" ID="ID_512107517" MODIFIED="1493867135769" TEXT="&#x67e5;&#x627e;&#x955c;&#x50cf;">
+<node CREATED="1493867130398" ID="ID_512107517" MODIFIED="1496728171478">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#26597;&#25214;&#38236;&#20687;
+    </p>
+    <p>
+      <font color="rgb(57, 57, 57)" face="verdana, ms song, Arial, Helvetica, sans-serif" size="14px">&#20174; Docker Hub &#20013;&#25628;&#32034;&#31526;&#21512;&#26465;&#20214;&#30340;&#38236;&#20687;</font>
+    </p>
+    <p>
+      &#21487;&#20197;&#20462;&#25913;&#25628;&#32034;&#30340;&#22320;&#22336;
+    </p>
+  </body>
+</html></richcontent>
 <node CREATED="1493867143132" ID="ID_1174057119" MODIFIED="1493867151454" TEXT="docker search puppet"/>
+<node CREATED="1496728116673" ID="ID_299654659" MODIFIED="1496728126896">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="rgb(57, 57, 57)" face="verdana, ms song, Arial, Helvetica, sans-serif" size="14px">--automated&#160;&#21482;&#21015;&#20986;&#160;automated&#160;build<br align="left" style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(250, 247, 239)" />&#31867;&#22411;&#30340;&#38236;&#20687;&#65307;<br align="left" style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(250, 247, 239)" /><br align="left" style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(250, 247, 239)" />--no-trunc&#160;&#21487;&#26174;&#31034;&#23436;&#25972;&#30340;&#38236;&#20687;&#25551;&#36848;&#65307;<br align="left" style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(250, 247, 239)" /><br align="left" style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(250, 247, 239)" />-s&#160;40&#160;&#21015;&#20986;&#25910;&#34255;&#25968;&#19981;&#23567;&#20110;40&#30340;&#38236;&#20687;</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
 </node>
 <node CREATED="1493860341518" ID="ID_1660073971" MODIFIED="1493865637009">
 <richcontent TYPE="NODE"><html>
@@ -387,7 +415,6 @@
   </body>
 </html></richcontent>
 <node CREATED="1493860352502" ID="ID_672796473" MODIFIED="1493860359255" TEXT="sudo docker images"/>
-<node CREATED="1493867067417" ID="ID_208902534" MODIFIED="1493867097842" TEXT="sduo docker images   "/>
 </node>
 <node CREATED="1493877371802" ID="ID_878596875" MODIFIED="1493877378681" TEXT="&#x5220;&#x9664;&#x4e00;&#x4e2a;&#x6216;&#x591a;&#x4e2a;&#x955c;&#x50cf;">
 <node CREATED="1493877381298" ID="ID_30056990" MODIFIED="1493877406546" TEXT="docker rmi   imagename  imagename"/>
@@ -435,10 +462,68 @@
 </node>
 <node CREATED="1493867892049" HGAP="21" ID="ID_697332872" MODIFIED="1493877079192" TEXT="docker build &#x4e0e;Dockerfile" VSHIFT="34">
 <node CREATED="1493879786449" ID="ID_1420120830" MODIFIED="1493879802080" TEXT="&#x7f16;&#x5199;Dockerfile"/>
-<node CREATED="1493879806495" ID="ID_609527680" MODIFIED="1493879814194" TEXT="docker build"/>
+<node CREATED="1493879806495" ID="ID_609527680" MODIFIED="1507649201064" TEXT="docker build .">
+<node CREATED="1507649205341" ID="ID_953212944" MODIFIED="1507649229589" TEXT="Dockerfile&#x6587;&#x4ef6;&#x5728;&#x5f53;&#x524d;&#x76ee;&#x5f55;"/>
+</node>
+<node CREATED="1507649233627" ID="ID_494876456" MODIFIED="1507649249913" TEXT="docker build  -f  /path/to/a/Dockerfile .">
+<node CREATED="1507649251659" ID="ID_1887693544" MODIFIED="1507649267996" TEXT="&#x6307;&#x5b9a;Dockerfile&#x7684;&#x76ee;&#x5f55;"/>
+</node>
+<node CREATED="1507649278260" ID="ID_675187351" MODIFIED="1507649345272" TEXT="docker build  -t   shykes/myapp  .">
+<node CREATED="1507649288499" ID="ID_217494609" MODIFIED="1507649341942" TEXT="&#x7ed9;&#x6784;&#x5efa;&#x6210;&#x529f;&#x7684;&#x955c;&#x50cf;&#x6307;&#x5b9a;&#x4ed3;&#x5e93;"/>
+</node>
+<node CREATED="1507649347580" ID="ID_242508085" MODIFIED="1507649360466" TEXT="docker build   -t  shykes/myapp:1.0.2   -t   shykes/myapp:latest ."/>
 </node>
 <node CREATED="1493883680837" ID="ID_1254231037" MODIFIED="1493883687923" TEXT="&#x67e5;&#x770b;&#x6784;&#x5efa;&#x5386;&#x53f2;">
 <node CREATED="1493883695874" ID="ID_1754357516" MODIFIED="1493883707306" TEXT="docker history  id"/>
+</node>
+</node>
+<node CREATED="1496728459265" ID="ID_3872914" MODIFIED="1496728479514" TEXT="&#x955c;&#x50cf;&#x4fdd;&#x5b58;&#x6210;tar&#x6587;&#x4ef6;">
+<node CREATED="1496728546997" ID="ID_758065350" MODIFIED="1496728582511">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      docker save &gt; &quot;debian.tar&quot;
+    </p>
+    <p>
+      <font color="rgb(57, 57, 57)" face="verdana, ms song, Arial, Helvetica, sans-serif" size="14px">-o&#160;&quot;debian.tar&quot;&#160;&#25351;&#23450;&#20445;&#23384;&#30340;&#38236;&#20687;&#24402;&#26723;</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1496728600991" ID="ID_490423319" MODIFIED="1496728672555">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      docker save 10.60.10.119:5000/poca/caster:0.0.9 | gzip -c &gt; caster-v0.0.9.tar.gz
+    </p>
+    <p>
+      &#20445;&#23384;&#36828;&#31471;&#30340;&#19968;&#20010;&#38236;&#20687;&#24182;&#21387;&#32553;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1496728844378" ID="ID_908595820" MODIFIED="1496728859586" TEXT="&#x4ece;&#x6587;&#x4ef6;&#x8f7d;&#x5165;&#x4e00;&#x4e2a;&#x955c;&#x50cf;">
+<node CREATED="1496728862097" ID="ID_679655377" MODIFIED="1496728877607">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      docker load -i &quot;debian.tar&quot;
+    </p>
+    <p>
+      <font color="rgb(57, 57, 57)" face="verdana, ms song, Arial, Helvetica, sans-serif" size="14px">-i&#160;&quot;debian.tar&quot;&#160;&#25351;&#23450;&#36733;&#20837;&#30340;&#38236;&#20687;&#24402;&#26723;</font>
+    </p>
+  </body>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -483,6 +568,9 @@
 </node>
 <node CREATED="1493877188396" ID="ID_1238653140" MODIFIED="1493877205851" TEXT="&#x4ea4;&#x4e92;&#x5f0f;&#x521b;&#x5efa;&#x8fdb;&#x5165;&#x5bb9;&#x5668;">
 <node CREATED="1493877208339" ID="ID_820333564" MODIFIED="1493877219557" TEXT="docker run -i -t image_name /bin/bash"/>
+</node>
+<node CREATED="1498732347191" ID="ID_451156869" MODIFIED="1498732368721" TEXT="&#x521b;&#x5efa;&#x5bb9;&#x5668;&#x5e76;&#x542f;&#x52a8;&#xff0c;&#x540c;&#x65f6;&#x9000;&#x51fa;&#x65f6;&#x5220;&#x9664;&#x5bb9;&#x5668;">
+<node CREATED="1498732372816" ID="ID_1775762498" MODIFIED="1498732374878" TEXT="sudo docker run -it --rm spotify/kafka bash"/>
 </node>
 </node>
 <node CREATED="1493861814797" HGAP="19" ID="ID_549653323" MODIFIED="1493862630958" VSHIFT="9">
@@ -748,7 +836,6 @@
 </node>
 </node>
 </node>
-<node CREATED="1493885450600" ID="ID_975319942" MODIFIED="1493885450600" TEXT=""/>
 </node>
 </node>
 </map>

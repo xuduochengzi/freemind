@@ -2,7 +2,7 @@
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1452565371433" ID="ID_843935734" MODIFIED="1495510879606" STYLE="fork" TEXT="mongoDB&#xa;3.4">
 <font NAME="SansSerif" SIZE="13"/>
-<node COLOR="#ff0000" CREATED="1452573364182" FOLDED="true" HGAP="18" ID="ID_1822221732" MODIFIED="1495510879607" POSITION="left" STYLE="fork" TEXT="&#x6570;&#x636e;&#x5e93;" VSHIFT="-48">
+<node COLOR="#ff0000" CREATED="1452573364182" HGAP="18" ID="ID_1822221732" MODIFIED="1505357411579" POSITION="left" STYLE="fork" TEXT="&#x6570;&#x636e;&#x5e93;" VSHIFT="-48">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1452573473168" ID="ID_1139205852" MODIFIED="1489766002791" TEXT="&#x591a;&#x4e2a;&#x96c6;&#x5408;&#x5728;&#x4e00;&#x8d77;&#x5c31;&#x662f;&#x4e00;&#x4e2a;&#x6570;&#x636e;&#x5e93;"/>
 <node CREATED="1494814472865" ID="ID_740327088" MODIFIED="1494814667403">
@@ -73,7 +73,18 @@
 <node CREATED="1484659738794" ID="ID_1264632155" MODIFIED="1489766002791" TEXT="&#x663e;&#x793a;&#x6240;&#x6709;dbs">
 <node CREATED="1484659751105" ID="ID_607313881" MODIFIED="1489766002792" TEXT="show dbs;"/>
 </node>
-<node CREATED="1494814279624" ID="ID_270002980" MODIFIED="1494814288434" TEXT="&#x5f53;&#x524d;&#x6570;&#x636e;&#x540d;">
+<node CREATED="1494814279624" ID="ID_270002980" MODIFIED="1508597572208">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#24403;&#21069;&#25968;&#25454;&#24211;&#21517;
+    </p>
+  </body>
+</html>
+</richcontent>
 <node CREATED="1494814292505" ID="ID_1927351531" MODIFIED="1494814326148">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -298,6 +309,11 @@
 <font NAME="Consolas" SIZE="10"/>
 </node>
 </node>
+<node CREATED="1497867312877" ID="ID_300818107" MODIFIED="1497867319708" TEXT="&#x5220;&#x9664;&#x6587;&#x6863;&#x5185;&#x4e00;&#x4e2a;&#x5b57;&#x6bb5;">
+<node CREATED="1497867322906" ID="ID_1889467029" MODIFIED="1497867357880" TEXT="db.User.update({},{$unset:{&apos;address&apos;:&apos;&apos;}},false, true)">
+<font NAME="Consolas" SIZE="12"/>
+</node>
+</node>
 <node CREATED="1495613493644" ID="ID_478414181" MODIFIED="1495613495652" TEXT="db.collection.deleteOne()"/>
 <node CREATED="1495613506682" ID="ID_644162443" MODIFIED="1495613508472" TEXT="db.collection.deleteMany()"/>
 </node>
@@ -378,6 +394,68 @@
 </node>
 <node CREATED="1495613229792" ID="ID_1913902580" MODIFIED="1495613238074" TEXT="&#x66ff;&#x6362;&#x4e00;&#x4e2a;doc">
 <node CREATED="1495613242079" ID="ID_950482372" MODIFIED="1495613243991" TEXT="db.collection.replaceOne() "/>
+</node>
+<node CREATED="1495854451558" ID="ID_692144281" MODIFIED="1495854606117">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#22686;&#21152;&#19968;&#20010;&#23383;&#27573;
+    </p>
+    <p>
+      &#21033;&#29992;&#19981;&#23384;&#22312;&#23601;&#28155;&#21152;&#30340;&#21407;&#29702;
+    </p>
+  </body>
+</html></richcontent>
+<font NAME="SansSerif" SIZE="12"/>
+<node CREATED="1495854468196" ID="ID_799972182" MODIFIED="1495854708815">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      db.doo.updateMany(
+    </p>
+    <p>
+      {},
+    </p>
+    <p>
+      {$set:{join_date:new Date()}}
+    </p>
+    <p>
+      )
+    </p>
+  </body>
+</html></richcontent>
+<font NAME="Consolas" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1495854427380" ID="ID_16652697" MODIFIED="1495854442505" TEXT="&#x5220;&#x9664;&#x4e00;&#x4e2a;&#x5b57;&#x6bb5;">
+<node CREATED="1495854631965" ID="ID_1233815532" MODIFIED="1495854695416">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      db.foo.updateMany(
+    </p>
+    <p>
+      { }&#65292;
+    </p>
+    <p>
+      {$unset: {&quot;join_date&quot;: &quot;&quot;}}
+    </p>
+    <p>
+      )
+    </p>
+  </body>
+</html></richcontent>
+<font NAME="Consolas" SIZE="12"/>
+</node>
 </node>
 <node COLOR="#ff0000" CREATED="1495510494212" ID="ID_1354835937" MODIFIED="1495547275588" TEXT="&#x65e0;&#x66f4;&#x65b0;,&#x5c31;&#x63d2;&#x5165;">
 <font NAME="SansSerif" SIZE="10"/>
@@ -492,8 +570,7 @@
       db.foo.find({&quot;_id&quot; : ObjectId(&quot;544a3dc0d4646f0c8c904962&quot;)})
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="Consolas" SIZE="10"/>
 </node>
 <node CREATED="1495508476011" ID="ID_1046432378" MODIFIED="1495617106931" STYLE="fork">
@@ -613,28 +690,83 @@
       db.inventory.find( { tags: { $all: [&quot;red&quot;, &quot;blank&quot;] } } )
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;" SIZE="10"/>
 </node>
 <node CREATED="1495639314641" ID="ID_881040886" MODIFIED="1495639326679" TEXT="&#x6761;&#x4ef6;&#x67e5;&#x8be2;">
 <node CREATED="1495639328773" ID="ID_864945906" MODIFIED="1495639330942" TEXT="db.inventory.find( { tags: &quot;red&quot; } )"/>
-<node CREATED="1495639345350" ID="ID_989567987" MODIFIED="1495639401665">
+<node CREATED="1495639345350" ID="ID_989567987" MODIFIED="1495855436893">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      db.inventory.find( { dim_cm: { $gt: 15, $lt: 20 } } )
+      db.inventory.find(
+    </p>
+    <p>
+      { dim_cm: { $gt: 15, $lt: 20 } }
+    </p>
+    <p>
+      )
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
+<font NAME="Consolas" SIZE="12"/>
 </node>
-<node CREATED="1495640060911" ID="ID_1369715732" MODIFIED="1495640063189" TEXT="db.inventory.find( { dim_cm: { $elemMatch: { $gt: 22, $lt: 30 } } } )"/>
-<node CREATED="1495641569666" ID="ID_411273065" MODIFIED="1495641578669" TEXT="db.inventory.find( { &quot;dim_cm.1&quot;: { $gt: 25 } } )"/>
+<node CREATED="1495640060911" ID="ID_1369715732" MODIFIED="1495855459297">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      db.inventory.find(
+    </p>
+    <p>
+      { dim_cm:
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;{ $elemMatch: { $gt: 22, $lt: 30 } }
+    </p>
+    <p>
+      }
+    </p>
+    <p>
+      )
+    </p>
+  </body>
+</html></richcontent>
+<font NAME="Consolas" SIZE="12"/>
 </node>
+<node CREATED="1495641569666" ID="ID_411273065" MODIFIED="1495855479270">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      db.inventory.find(
+    </p>
+    <p>
+      &#160;{ &quot;dim_cm.1&quot;: { $gt: 25 } }
+    </p>
+    <p>
+      )
+    </p>
+  </body>
+</html></richcontent>
+<font NAME="Consolas" SIZE="12"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1495855335428" ID="ID_1116592308" MODIFIED="1495855353025" TEXT="&#x6b63;&#x5219;&#x8868;&#x8fbe;&#x5f0f;&#x65b9;&#x5f0f;&#x67e5;&#x627e;">
+<node CREATED="1495855388041" ID="ID_1857967237" MODIFIED="1495855492185" TEXT="db.people.find( { user_id: /^bc/ } )">
+<font NAME="Consolas" SIZE="12"/>
+</node>
+<node CREATED="1495855524952" ID="ID_219422646" MODIFIED="1495855536371" TEXT="db.people.find( { user_id: { $regex: /^bc/ } } )">
+<font NAME="Consolas" SIZE="12"/>
 </node>
 </node>
 </node>
@@ -656,7 +788,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1494904723293" FOLDED="true" ID="ID_172903553" MODIFIED="1495612703472" POSITION="left" STYLE="fork">
+<node CREATED="1494904723293" ID="ID_172903553" MODIFIED="1496652704593" POSITION="left" STYLE="fork">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -826,7 +958,9 @@
 </node>
 <node CREATED="1495091466770" ID="ID_1338089009" MODIFIED="1495595089411" TEXT="db.test.createIndex({name:1,age:1,sex:1}, {name:&apos;index_nas&apos;}  ) &#xa; name age sex &#x662f; &#x6587;&#x6863;&#x7684;key&#x503c;  &#x540e;&#x9762;&#x7684;name&#x7528;&#x6765;&#x5b9a;&#x4e49;&#x7d22;&#x5f15;&#x540d;&#x5b57;"/>
 </node>
-<node CREATED="1494922739025" ID="ID_742287018" MODIFIED="1494922741253" TEXT="&#x5220;&#x9664;"/>
+<node CREATED="1494922739025" ID="ID_742287018" MODIFIED="1494922741253" TEXT="&#x5220;&#x9664;">
+<node CREATED="1508597747594" ID="ID_1048850419" MODIFIED="1508597777506" TEXT="db.collection.dropIndex(&quot;index_name&quot;)"/>
+</node>
 <node CREATED="1495091319627" ID="ID_1153323462" MODIFIED="1495091323858" TEXT="&#x6ce8;&#x610f;">
 <node CREATED="1495091692707" ID="ID_369244838" MODIFIED="1495091701050" TEXT="&#x590d;&#x5408;&#x7d22;&#x5f15;&#x652f;&#x6301;&#x5339;&#x914d;&#x591a;&#x4e2a;&#x952e;&#x7684;&#x67e5;&#x8be2;"/>
 <node CREATED="1495091653025" ID="ID_119181925" MODIFIED="1495091673139">
@@ -992,6 +1126,65 @@
 </node>
 <node COLOR="#ff0000" CREATED="1495381507912" ID="ID_448963064" MODIFIED="1495381527553" TEXT="&#x5173;&#x4e8e;&#x7d22;&#x5f15;&#x7684;&#x6ce8;&#x610f;">
 <node CREATED="1495381541640" ID="ID_1922305668" MODIFIED="1495381561962" TEXT="&#x4e00;&#x4e2a;&#x96c6;&#x5408;&#x6700;&#x591a;&#x62e5;&#x6709;64&#x4e2a;&#x7d22;&#x5f15;"/>
+</node>
+</node>
+<node CREATED="1508597687657" ID="ID_1919390977" MODIFIED="1508597854522" POSITION="left">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#26597;&#35810;&#20248;&#21270;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1508598634464" ID="ID_886537186" MODIFIED="1508598656722">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#36890;&#36807;&#37197;&#32622;&#25991;&#20214;&#23450;&#20301;&#24930;&#26597;&#35810;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1508597872256" ID="ID_689155469" MODIFIED="1508598467014">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="3">&#23545;&#20110;&#36229;&#36807;100ms&#30340;&#26597;&#35810;&#65292;&#20250;&#33258;&#21160;&#36755;&#20986;&#21040;&#26085;&#24535;&#25991;&#20214;&#12290; </font>
+    </p>
+    <p>
+      <font size="3">&#22914;&#26524;&#35273;&#24471;&#38400;&#20540;&#36807;&#22823;&#36890;&#36807;&#35774;&#32622;&#37197;&#32622;&#25991;&#20214;&#30340;operationProfiling:&#35774;&#32622;</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1508598663192" ID="ID_678189229" MODIFIED="1508598686958" TEXT="&#x901a;&#x8fc7;&#x6253;&#x5f00;&#x6570;&#x636e;&#x5e93;&#x7684;&#x76d1;&#x89c6;&#x529f;&#x80fd;">
+<node CREATED="1508598692067" ID="ID_661834748" MODIFIED="1508598928688">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#40664;&#35748;&#36825;&#20010;&#26159;&#20851;&#38381;&#30340;
+    </p>
+    <p>
+      &#36890;&#36807;db.setProfilingLevel(level,&#160;slowms)&#24320;&#21551;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 </node>
 <node CREATED="1483547933488" ID="ID_38060450" MODIFIED="1495510879621" POSITION="right" STYLE="fork" TEXT="&#x5b89;&#x88c5;">
@@ -1162,10 +1355,19 @@
 <node CREATED="1490969373780" ID="ID_123295575" MODIFIED="1495510879632" STYLE="fork" TEXT="mongodump&#x3000;--help">
 <font NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1490969416928" ID="ID_978606276" MODIFIED="1495510879632" STYLE="fork" TEXT="mongodump -h dbhost -d dbname -o dbdirectory&#xa;        &#x53c2;&#x6570;&#x8bf4;&#x660e;&#xff1a;&#xa;            -h&#xff1a; MongDB&#x6240;&#x5728;&#x670d;&#x52a1;&#x5668;&#x5730;&#x5740;&#xff0c;&#x4f8b;&#x5982;&#xff1a;127.0.0.1&#xff0c;&#x5f53;&#x7136;&#x4e5f;&#x53ef;&#x4ee5;&#x6307;&#x5b9a;&#x7aef;&#x53e3;&#x53f7;&#xff1a;127.0.0.1:27017&#xa;            -d&#xff1a; &#x9700;&#x8981;&#x5907;&#x4efd;&#x7684;&#x6570;&#x636e;&#x5e93;&#x5b9e;&#x4f8b;&#xff0c;&#x4f8b;&#x5982;&#xff1a;test&#xa;            -o&#xff1a; &#x5907;&#x4efd;&#x7684;&#x6570;&#x636e;&#x5b58;&#x653e;&#x4f4d;&#x7f6e;&#xff0c;&#x4f8b;&#x5982;&#xff1a;/home/mongodump/&#xff0c;&#x5f53;&#x7136;&#x8be5;&#x76ee;&#x5f55;&#x9700;&#x8981;&#x63d0;&#x524d;&#x5efa;&#x7acb;&#xff0c;&#x8fd9;&#x4e2a;&#x76ee;&#x5f55;&#x91cc;&#x9762;&#x5b58;&#x653e;&#x8be5;&#x6570;&#x636e;&#x5e93;&#x5b9e;&#x4f8b;&#x7684;&#x5907;&#x4efd;&#x6570;&#x636e;&#x3002;">
+<node CREATED="1505366227258" ID="ID_408495538" MODIFIED="1505366243728" TEXT="&#x5907;&#x4efd;&#x6240;&#x6709;&#x6570;&#x636e;&#x5e93;">
+<node CREATED="1505366248598" ID="ID_289631118" MODIFIED="1505366394989" TEXT="mongodump -u superuser -p 123456  --authenticationDatabase admin -o /backup/mongodb/full_bak"/>
+</node>
+<node CREATED="1505366313099" ID="ID_954136397" MODIFIED="1505366320561" TEXT="&#x5907;&#x4efd;&#x5355;&#x4e2a;&#x6570;&#x636e;&#x5e93;">
+<node CREATED="1505366322896" ID="ID_359027165" MODIFIED="1505366372281" TEXT="mongodump -d myTest -u superuser -p 123456  --authenticationDatabase admin -o /backup/mongodb/myTest_bak"/>
+</node>
+<node CREATED="1505366398683" ID="ID_947626009" MODIFIED="1505366405143" TEXT="&#x5907;&#x4efd;&#x4e00;&#x4e2a;&#x96c6;&#x5408;">
+<node CREATED="1505366421587" ID="ID_1078704500" MODIFIED="1505366437843" TEXT="mongodump -u  superuser -p 123456  --authenticationDatabase admin   -d  myTest   -c  col  -o /backup/mongodb/myTest_d_bak"/>
+</node>
+<node CREATED="1490969472940" ID="ID_323946053" MODIFIED="1508597437673" STYLE="fork" TEXT=" sudo mongodump -host 192.168.17.129:27017 -d itcast -o /home/mongodump/">
 <font NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1490969472940" ID="ID_323946053" MODIFIED="1495510879633" STYLE="fork" TEXT=" sudo mongodump -h 192.168.17.129:27017 -d itcast -o /home/mongodump/">
+<node CREATED="1490969416928" ID="ID_978606276" MODIFIED="1495510879632" STYLE="fork" TEXT="mongodump -h dbhost -d dbname -o dbdirectory&#xa;        &#x53c2;&#x6570;&#x8bf4;&#x660e;&#xff1a;&#xa;            -h&#xff1a; MongDB&#x6240;&#x5728;&#x670d;&#x52a1;&#x5668;&#x5730;&#x5740;&#xff0c;&#x4f8b;&#x5982;&#xff1a;127.0.0.1&#xff0c;&#x5f53;&#x7136;&#x4e5f;&#x53ef;&#x4ee5;&#x6307;&#x5b9a;&#x7aef;&#x53e3;&#x53f7;&#xff1a;127.0.0.1:27017&#xa;            -d&#xff1a; &#x9700;&#x8981;&#x5907;&#x4efd;&#x7684;&#x6570;&#x636e;&#x5e93;&#x5b9e;&#x4f8b;&#xff0c;&#x4f8b;&#x5982;&#xff1a;test&#xa;            -o&#xff1a; &#x5907;&#x4efd;&#x7684;&#x6570;&#x636e;&#x5b58;&#x653e;&#x4f4d;&#x7f6e;&#xff0c;&#x4f8b;&#x5982;&#xff1a;/home/mongodump/&#xff0c;&#x5f53;&#x7136;&#x8be5;&#x76ee;&#x5f55;&#x9700;&#x8981;&#x63d0;&#x524d;&#x5efa;&#x7acb;&#xff0c;&#x8fd9;&#x4e2a;&#x76ee;&#x5f55;&#x91cc;&#x9762;&#x5b58;&#x653e;&#x8be5;&#x6570;&#x636e;&#x5e93;&#x5b9e;&#x4f8b;&#x7684;&#x5907;&#x4efd;&#x6570;&#x636e;&#x3002;">
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
@@ -1174,7 +1376,21 @@
 <node CREATED="1490969573304" ID="ID_1682537507" MODIFIED="1495510879634" STYLE="fork" TEXT="mongorestore --help">
 <font NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1490969619979" ID="ID_274666592" MODIFIED="1495510879634" STYLE="fork" TEXT="&#x53c2;&#x6570;&#x6216;&#x540d;&#xff1a;&#xa;            -h&#xff1a; MongoDB&#x6240;&#x5728;&#x670d;&#x52a1;&#x5668;&#x5730;&#x5740;&#xa;            -d&#xff1a; &#x9700;&#x8981;&#x6062;&#x590d;&#x7684;&#x6570;&#x636e;&#x5e93;&#x5b9e;&#x4f8b;&#xff0c;&#x4f8b;&#x5982;&#xff1a;test&#xff0c;&#x5f53;&#x7136;&#x8fd9;&#x4e2a;&#x540d;&#x79f0;&#x4e5f;&#x53ef;&#x4ee5;&#x548c;&#x5907;&#x4efd;&#x65f6;&#x5019;&#x7684;&#x4e0d;&#x4e00;&#x6837;&#xff0c;&#x6bd4;&#x5982;test2&#xa;            --dir&#xff1a; &#x5907;&#x4efd;&#x6570;&#x636e;&#x6240;&#x5728;&#x4f4d;&#x7f6e;&#xff0c;&#x4f8b;&#x5982;&#xff1a;/home/mongodump/itcast/&#xa;            --drop&#xff1a; &#x6062;&#x590d;&#x7684;&#x65f6;&#x5019;&#xff0c;&#x5148;&#x5220;&#x9664;&#x5f53;&#x524d;&#x6570;&#x636e;&#xff0c;&#x7136;&#x540e;&#x6062;&#x590d;&#x5907;&#x4efd;&#x7684;&#x6570;&#x636e;&#x3002;&#x5c31;&#x662f;&#x8bf4;&#xff0c;&#x6062;&#x590d;&#x540e;&#xff0c;&#x5907;&#x4efd;&#x540e;&#x6dfb;&#x52a0;&#x4fee;&#x6539;&#x7684;&#x6570;&#x636e;&#x90fd;&#x4f1a;&#x88ab;&#x5220;&#x9664;&#xff0c;&#x614e;&#x7528;&#xff01;">
+<node CREATED="1505366480593" ID="ID_149008882" MODIFIED="1505366505083" TEXT="&#x6062;&#x590d;&#x6240;&#x6709;&#x6570;&#x636e;&#x5e93;">
+<arrowlink DESTINATION="ID_149008882" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_1295263247" STARTARROW="None" STARTINCLINATION="0;0;"/>
+<linktarget COLOR="#b0b0b0" DESTINATION="ID_149008882" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_1295263247" SOURCE="ID_149008882" STARTARROW="None" STARTINCLINATION="0;0;"/>
+<node CREATED="1505366507356" ID="ID_1746698769" MODIFIED="1508597446391" TEXT="mongorestore -host 192.168.146.131:27017    --dir ~/Desktop/metadata.bak/metadata/"/>
+</node>
+<node CREATED="1505366538816" ID="ID_1379467916" MODIFIED="1505366553451" TEXT="&#x6062;&#x590d;&#x5355;&#x4e2a;&#x6570;&#x636e;&#x5e93;">
+<node CREATED="1505366556779" ID="ID_1134086988" MODIFIED="1508597456090" TEXT="mongorestore -host 192.168.146.131:27017  -d metadata  --dir ~/Desktop/metadata.bak/metadata/"/>
+</node>
+<node CREATED="1505366575559" ID="ID_371977998" MODIFIED="1505366624104" TEXT="&#x6062;&#x590d;&#x4e00;&#x4e2a;&#x96c6;&#x5408;">
+<arrowlink DESTINATION="ID_371977998" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_1881008191" STARTARROW="None" STARTINCLINATION="0;0;"/>
+<linktarget COLOR="#b0b0b0" DESTINATION="ID_371977998" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_1881008191" SOURCE="ID_371977998" STARTARROW="None" STARTINCLINATION="0;0;"/>
+<node CREATED="1505366626793" ID="ID_1580014809" MODIFIED="1505366649170" TEXT="mongorestore -u  superuser -p 123456  --authenticationDatabase admin -d  myTest  -c  col /backup/mongodb/myTest_d_bak_201507021701.bak/myTest/col.bson"/>
+</node>
+<node CREATED="1505366089872" ID="ID_1670681720" MODIFIED="1505366091872" TEXT="mongorestore -h 192.168.146.131:27017  -d metadata  --dir ~/Desktop/metadata.bak/metadata/"/>
+<node CREATED="1490969619979" ID="ID_274666592" MODIFIED="1508597463248" STYLE="fork" TEXT="&#x53c2;&#x6570;&#x6216;&#x540d;&#xff1a;&#xa;            -host&#xff1a; MongoDB&#x6240;&#x5728;&#x670d;&#x52a1;&#x5668;&#x5730;&#x5740;&#xa;            -d&#xff1a; &#x9700;&#x8981;&#x6062;&#x590d;&#x7684;&#x6570;&#x636e;&#x5e93;&#x5b9e;&#x4f8b;&#xff0c;&#x4f8b;&#x5982;&#xff1a;test&#xff0c;&#x5f53;&#x7136;&#x8fd9;&#x4e2a;&#x540d;&#x79f0;&#x4e5f;&#x53ef;&#x4ee5;&#x548c;&#x5907;&#x4efd;&#x65f6;&#x5019;&#x7684;&#x4e0d;&#x4e00;&#x6837;&#xff0c;&#x6bd4;&#x5982;test2&#xa;            --dir&#xff1a; &#x5907;&#x4efd;&#x6570;&#x636e;&#x6240;&#x5728;&#x4f4d;&#x7f6e;&#xff0c;&#x4f8b;&#x5982;&#xff1a;/home/mongodump/itcast/&#xa;            --drop&#xff1a; &#x6062;&#x590d;&#x7684;&#x65f6;&#x5019;&#xff0c;&#x5148;&#x5220;&#x9664;&#x5f53;&#x524d;&#x6570;&#x636e;&#xff0c;&#x7136;&#x540e;&#x6062;&#x590d;&#x5907;&#x4efd;&#x7684;&#x6570;&#x636e;&#x3002;&#x5c31;&#x662f;&#x8bf4;&#xff0c;&#x6062;&#x590d;&#x540e;&#xff0c;&#x5907;&#x4efd;&#x540e;&#x6dfb;&#x52a0;&#x4fee;&#x6539;&#x7684;&#x6570;&#x636e;&#x90fd;&#x4f1a;&#x88ab;&#x5220;&#x9664;&#xff0c;&#x614e;&#x7528;&#xff01;">
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
@@ -1228,14 +1444,14 @@
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node COLOR="#ff0000" CREATED="1490193297197" ID="ID_1585228617" MODIFIED="1495510879641" STYLE="fork" TEXT="mongos&#xa;&#x4e0e;MongoDB &#x4ea4;&#x4e92;&#x7684;&#x547d;&#x4ee4;&#x884c;&#x5f0f;&#x5ba2;&#x6237;&#x7aef;">
+<node COLOR="#ff0000" CREATED="1490193297197" ID="ID_1585228617" MODIFIED="1508597477784" STYLE="fork" TEXT="mongo&#xa;&#x4e0e;MongoDB &#x4ea4;&#x4e92;&#x7684;&#x547d;&#x4ee4;&#x884c;&#x5f0f;&#x5ba2;&#x6237;&#x7aef;">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1491584995528" ID="ID_530676253" MODIFIED="1495510879642" STYLE="fork" TEXT=" mongo --help">
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 <node CREATED="1494813798796" ID="ID_26415457" MODIFIED="1495510879642" STYLE="fork" TEXT="&#x57fa;&#x672c;&#x4f7f;&#x7528;">
 <font NAME="SansSerif" SIZE="12"/>
-<node CREATED="1494813806230" ID="ID_11084381" MODIFIED="1495510879642" STYLE="fork" TEXT="mongo -u admin  -p admin   -h  127.9.0.1:8080 ">
+<node CREATED="1494813806230" ID="ID_11084381" MODIFIED="1506072199004" STYLE="fork" TEXT="mongo -u admin  -p admin  --authenticationDatabase admin  --host  127.9.0.1 -- port 8080 ">
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 <node CREATED="1494813835282" ID="ID_516250274" MODIFIED="1495510879642" STYLE="fork" TEXT="mongo --version">
@@ -1261,7 +1477,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#ff0000" CREATED="1490187392682" ID="ID_367916449" MODIFIED="1495510879642" POSITION="right" STYLE="fork" TEXT="mongd.conf">
+<node COLOR="#ff0000" CREATED="1490187392682" ID="ID_367916449" MODIFIED="1508597613381" POSITION="right" STYLE="fork" TEXT="mongd.conf">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1490187468886" ID="ID_1160148881" MODIFIED="1495510879642" STYLE="fork" TEXT="&#x4f4d;&#x7f6e;">
 <font NAME="SansSerif" SIZE="12"/>
@@ -1398,6 +1614,27 @@
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1491408827891" ID="ID_1615959581" MODIFIED="1495510879649" STYLE="fork" TEXT="Aggregation Pipeline">
 <font NAME="SansSerif" SIZE="12"/>
+<node CREATED="1496741841344" ID="ID_1667082055" MODIFIED="1496741853010" TEXT="&#x805a;&#x5408;&#x64cd;&#x4f5c;&#x8fd4;&#x56de;&#x7ed3;&#x679c;">
+<node CREATED="1496741855710" ID="ID_1539165518" MODIFIED="1496742008330">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#36820;&#22238;coursor
+    </p>
+    <p>
+      (&#40664;&#35748;&#36820;&#22238;coursor)
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1496741868232" ID="ID_1853607903" MODIFIED="1496741889721" TEXT="&#x5c06;&#x8fd4;&#x56de;&#x7ed3;&#x679c;&#x5b58;&#x50a8;&#x5230;col&#x4e2d;"/>
+</node>
+<node CREATED="1496741555588" ID="ID_242546445" MODIFIED="1496741569149" TEXT="&#x805a;&#x5408;&#x64cd;&#x4f5c;&#x7684;&#x9650;&#x5236;">
+<node CREATED="1496741950508" ID="ID_1993254403" MODIFIED="1496741966604" TEXT="&#x8fd4;&#x56de;&#x7684;&#x6bcf;&#x4e2a;doc&#x4e0d;&#x8d85;&#x8fc7;16mb"/>
+</node>
 </node>
 <node CREATED="1491408862988" ID="ID_907980363" MODIFIED="1495510879649" STYLE="fork" TEXT="Map-Reduce">
 <font NAME="SansSerif" SIZE="12"/>
@@ -1421,7 +1658,7 @@
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1483592914882" FOLDED="true" HGAP="15" ID="ID_259967475" MODIFIED="1495510879649" POSITION="left" STYLE="fork" TEXT="&#x526f;&#x672c;&#x96c6;&#xff08;replica set&#xff09;" VSHIFT="17">
+<node CREATED="1483592914882" FOLDED="true" HGAP="15" ID="ID_259967475" MODIFIED="1508597607752" POSITION="left" STYLE="fork" TEXT="&#x526f;&#x672c;&#x96c6;&#xff08;replica set&#xff09;" VSHIFT="17">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1483594157705" HGAP="70" ID="ID_1646187502" MODIFIED="1489766002807" TEXT="&#x65b0;&#x5efa;&#x526f;&#x672c;&#x96c6;" VSHIFT="-2">
 <node CREATED="1483594164951" HGAP="17" ID="ID_14885462" MODIFIED="1489766002807" TEXT="1&#xff1a;&#x5047;&#x8bbe;&#x4e09;&#x4e2a;&#x673a;&#x5668;&#xff0c;&#x7cfb;&#x7edf;ubuntu 14.04&#xa;192.168.0.1&#xa;192.168.0.2&#xa;192.168.0.3" VSHIFT="57"/>

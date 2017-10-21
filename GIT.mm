@@ -357,7 +357,32 @@
 </node>
 </node>
 <node CREATED="1439889860456" ID="ID_1540631675" MODIFIED="1486306770206" TEXT="&#x5217;&#x51fa;&#x6240;&#x6709;&#x6807;&#x7b7e;" VSHIFT="16">
-<node CREATED="1439890674581" ID="ID_1023848890" MODIFIED="1441867790079" TEXT="git  tag -l"/>
+<node CREATED="1439890674581" ID="ID_1023848890" MODIFIED="1501230796072">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      git&#160;&#160;tag -l&#160;&#160;(&#26412;&#22320;)
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1501230803337" ID="ID_1507745437" MODIFIED="1501230826957">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      git show-ref --tag &#65288;&#36828;&#31471;&#65289;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 <node BACKGROUND_COLOR="#ff6666" CREATED="1486306386417" ID="ID_1651509551" MODIFIED="1486313444412" TEXT="git  tag -l &apos;v1.8.5*&apos;&#xa;&#x6a21;&#x7cca;&#x5339;&#x914d;&#xff0c;&#x5e76;&#x5217;&#x51fa;&#x7b26;&#x5408;&#x6761;&#x4ef6;&#x7684;&#x6807;&#x7b7e;"/>
 </node>
 </node>
